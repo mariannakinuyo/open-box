@@ -1,4 +1,4 @@
-# MODELO DA RCKT
+# MODELO
 
 Para começar um projeto sem o modelo:
 
@@ -32,7 +32,7 @@ Para trocar esses comandos é so editar o package.json
 Para compilar o scss e o js:
 
     gulp
-    
+
 ou
 
     gulp watch
