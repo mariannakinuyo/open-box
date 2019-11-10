@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'PF DIN Text';
+  src: url('/fonts/pfdintextcomppro-regular.eot');
+  src: url('/fonts/pfdintextcomppro-regular.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/pfdintextcomppro-regular.woff') format('woff'),
+       url('/fonts/pfdintextcomppro-regular.ttf')  format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'PF DIN Text';
+  src: url('/fonts/pfdintextcomppro-medium.eot');
+  src: url('/fonts/pfdintextcomppro-medium.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/pfdintextcomppro-medium.woff') format('woff'),
+       url('/fonts/pfdintextcomppro-medium.ttf')  format('truetype');
+  font-weight: bold;
+}
