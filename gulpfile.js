@@ -19,7 +19,8 @@ gulp.task('js', function(){
       'node_modules/jquery/dist/jquery.min.js',
       'node_modules/popper.js/dist/umd/popper.min.js',
       'node_modules/bootstrap/dist/js/bootstrap.min.js',
-      'src/js/script.js'])
+      'src/js/script.js',
+    ])
     .pipe(sourcemaps.init())
     .pipe(concat('script.js'))
     .pipe(sourcemaps.write())
@@ -29,7 +30,7 @@ gulp.task('js', function(){
 // adicionar páginas ['src/js/about.js'] => ['src/js/about.js','src/js/contact.js']
 gulp.task('pages', function(){
   return gulp
-    .src(['src/js/about.js'])
+    .src(['src/js/about.js', 'src/js/complete.js'])
     .pipe(gulp.dest('js'))
 });
 

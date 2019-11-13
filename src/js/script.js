@@ -1,6 +1,18 @@
 // js
 console.log('geral');
+// import pessoas from './complete.js';
+// console.log(pessoas.g);
+console.log("olar");
 
+var novoArray = [];
+pessoas.nodes.forEach(function(item, index) {
+  let aux = {};
+  aux.id = index;
+  aux.cx = "415";
+  aux.cy = "120";
+  aux.r = item.size;
+  novoArray.push(aux);
+});
 // declaracao de algumas variaveis necessarias
 var blue = "rgb(0, 0, 255)",
     red = "rgb(255, 0, 0)",
@@ -32,8 +44,8 @@ var blue = "rgb(0, 0, 255)",
         var cos = Math.cos(angle/180*Math.PI);
         var sen = Math.sin(angle/180*Math.PI);
 
-        console.log(angle)
-        console.log(cos)
+       //  console.log(angle)
+       //  console.log(cos)
 
         pointer.setAttribute("cx", 354.954 + (sen * 259.5));
         pointer.setAttribute("cy", 309.954 - (cos * 259.5));

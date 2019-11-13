@@ -42,12 +42,10 @@
           <circle id="pointer" cx="415" cy="58.9999" r="3" fill="#C4C4C4"/>
           <circle id="four" cx="415" cy="58.9999" r="15" fill="#C4C4C4"/>
           <!-- <circle cx="531" cy="121" r="1" fill="#C4C4C4"/> -->
-          <circle id="two" cx="415" cy="120" r="3" fill="#C4C4C4"/>
+          <circle v-for="(circulo, index) in novoArray" :id="circulo.id" :cx="circulo.cx" :cy="circulo.cy" :r="circulo.r" fill="#C4C4C4"/>
           <circle id="tres" cx="415" cy="184" r="3" fill="#C4C4C4"/>
           <text id="myTimer" text-anchor="middle" x="100" y="110" fill="#00CC33" style="font-size: 36px;" >0%</text>
         </svg>
-
-
 
         <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" preserveAspectRatio="none" style="width:500; height:500; top:0; left:0;">
 
@@ -75,7 +73,8 @@
     </div>
   </div>
 
-
+  <script src="/src/js/complete.js">
+  </script>
   <script src="/js/script.js">
 
 

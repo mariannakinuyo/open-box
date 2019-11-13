@@ -1,4 +1,4 @@
-    g = {
+    pessoas = {
     "nodes":  [
      {
        "id": 1,
@@ -263,7 +263,7 @@
      {
        "id": 21,
        "name": "Luisa Lina Villa",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "SP",
        "region": "Sudeste",
@@ -276,7 +276,7 @@
      {
        "id": 22,
        "name": "Mayana Zatz",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "SP",
        "region": "Sudeste",
@@ -289,7 +289,7 @@
      {
        "id": 23,
        "name": "Rita de Cassia Aleixo Tostes Passaglia",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "SP",
        "region": "Sudeste",
@@ -302,7 +302,7 @@
      {
        "id": 24,
        "name": "Elaine Aparecida Del Bel Belluz Guimarães",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "SP",
        "region": "Sudeste",
@@ -315,7 +315,7 @@
      {
        "id": 25,
        "name": "Cláudia Lúcia de Moraes Forjaz",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "SP",
        "region": "Sudeste",
@@ -328,7 +328,7 @@
      {
        "id": 26,
        "name": "Leticia Veras Costa Lotufo",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "SP",
        "region": "Sudeste",
@@ -341,7 +341,7 @@
      {
        "id": 27,
        "name": "Lúcia Helena Faccioli",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "SP",
        "region": "Sudeste",
@@ -354,7 +354,7 @@
      {
        "id": 28,
        "name": "Janete Maria Cerutti",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "SP",
        "region": "Sudeste",
@@ -367,7 +367,7 @@
      {
        "id": 29,
        "name": "Maria Claudia Costa Irigoyen",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "SP",
        "region": "Sudeste",
@@ -380,7 +380,7 @@
      {
        "id": 30,
        "name": "Ohara Augusto",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "SP",
        "region": "Sudeste",
@@ -393,7 +393,7 @@
      {
        "id": 31,
        "name": "Zuleica Bruno Fortes",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "SP",
        "region": "Sudeste",
@@ -406,7 +406,7 @@
      {
        "id": 32,
        "name": "Suely Vilela",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "SP",
        "region": "Sudeste",
@@ -419,7 +419,7 @@
      {
        "id": 33,
        "name": "Denise Vilarinho Tambourgi",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "SP",
        "region": "Sudeste",
@@ -432,7 +432,7 @@
      {
        "id": 34,
        "name": "Suely Kazue Nagahashi Marie",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "SP",
        "region": "Sudeste",
@@ -445,7 +445,7 @@
      {
        "id": 35,
        "name": "Marisa Helena Gennari de Medeiros",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "SP",
        "region": "Sudeste",
@@ -458,7 +458,7 @@
      {
        "id": 36,
        "name": "Fátima Ferreira-Briza",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "Salzburg",
        "region": "Exterior",
@@ -471,7 +471,7 @@
      {
        "id": 37,
        "name": "Shirley Schreier",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "SP",
        "region": "Sudeste",
@@ -484,7 +484,7 @@
      {
        "id": 38,
        "name": "Sandra Helena Poliselli Farsky",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "SP",
        "region": "Sudeste",
@@ -497,7 +497,7 @@
      {
        "id": 39,
        "name": "Maria Rita dos Santos e Passos Bueno",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "SP",
        "region": "Sudeste",
@@ -939,7 +939,7 @@
      {
        "id": 73,
        "name": "Marinete Marins Povoa",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "PA",
        "region": "Norte",
@@ -952,7 +952,7 @@
      {
        "id": 74,
        "name": "Neusa Hamada",
-       "color": red,
+       "color": "red",
        "race": "parda",
        "state": "AM",
        "region": "Norte",
@@ -965,7 +965,7 @@
      {
        "id": 75,
        "name": "Leonor Gusmão",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "RJ",
        "region": "Sudeste",
@@ -978,7 +978,7 @@
      {
        "id": 76,
        "name": "Erna Geessien Kroon",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "MG",
        "region": "Sudeste",
@@ -991,7 +991,7 @@
      {
        "id": 77,
        "name": "Mariza de Andrade",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "Rochester",
        "region": "Exterior",
@@ -1004,7 +1004,7 @@
      {
        "id": 78,
        "name": "Luana Cassandra Breitenbach Barroso Coelho",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "PE",
        "region": "Nordeste",
@@ -1186,7 +1186,7 @@
      {
        "id": 92,
        "name": "Patricia Rieken Macedo Rocco",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "RJ",
        "region": "Sudeste",
@@ -1199,7 +1199,7 @@
      {
        "id": 93,
        "name": "Cristina Wayne Nogueira",
-       "color": red,
+       "color": "red",
        "race": "parda",
        "state": "RS",
        "region": "Sul",
@@ -1212,7 +1212,7 @@
      {
        "id": 94,
        "name": "Monica Levy Andersen",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "SP",
        "region": "Sudeste",
@@ -1225,7 +1225,7 @@
      {
        "id": 95,
        "name": "Angela Terezinha de Souza Wyse",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "RS",
        "region": "Sul",
@@ -1238,7 +1238,7 @@
      {
        "id": 96,
        "name": "Helena Bonciani Nader",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "SP",
        "region": "Sudeste",
@@ -1251,7 +1251,7 @@
      {
        "id": 97,
        "name": "Maria Rosa Chitolina",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "RS",
        "region": "Sul",
@@ -1264,7 +1264,7 @@
      {
        "id": 98,
        "name": "Aldina Maria Prado Barral",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "BA",
        "region": "Nordeste",
@@ -1277,7 +1277,7 @@
      {
        "id": 99,
        "name": "Patricia Torres Bozza Viola",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "RJ",
        "region": "Sudeste",
@@ -1290,7 +1290,7 @@
      {
        "id": 100,
        "name": "Ana Lúcia Severo Rodrigues",
-       "color": red,
+       "color": "red",
        "race": "parda",
        "state": "SC",
        "region": "Sul",
@@ -1303,7 +1303,7 @@
      {
        "id": 101,
        "name": "Claudia do Ó Pessoa",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "CE",
        "region": "Nordeste",
@@ -1316,7 +1316,7 @@
      {
        "id": 102,
        "name": "Denise Maria Guimarães Freire",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "RJ",
        "region": "Sudeste",
@@ -1329,7 +1329,7 @@
      {
        "id": 103,
        "name": "Kátia De Angelis",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "SP",
        "region": "Sudeste",
@@ -1342,7 +1342,7 @@
      {
        "id": 104,
        "name": "Milena Botelho Pereira Soares",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "BA",
        "region": "Nordeste",
@@ -1355,7 +1355,7 @@
      {
        "id": 105,
        "name": "Patrícia Cristina Lisbôa da Silva",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "RJ",
        "region": "Sudeste",
@@ -1368,7 +1368,7 @@
      {
        "id": 106,
        "name": "Patricia Machado Rodrigues e Silva Martins",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "RJ",
        "region": "Sudeste",
@@ -1381,7 +1381,7 @@
      {
        "id": 107,
        "name": "Maria Aparecida Juliano",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "SP",
        "region": "Sudeste",
@@ -1394,7 +1394,7 @@
      {
        "id": 108,
        "name": "Carla Denise Bonan",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "RS",
        "region": "Sul",
@@ -1407,7 +1407,7 @@
      {
        "id": 109,
        "name": "Célia Maria de Almeida Soares",
-       "color": red,
+       "color": "red",
        "race": "parda",
        "state": "GO",
        "region": "Centro-Oeste",
@@ -1420,7 +1420,7 @@
      {
        "id": 110,
        "name": "Vera Maria Melchiors Morsch",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "RS",
        "region": "Sul",
@@ -1433,7 +1433,7 @@
      {
        "id": 111,
        "name": "Ana Tereza Ribeiro de Vasconcelos",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "RJ",
        "region": "Sudeste",
@@ -1446,7 +1446,7 @@
      {
        "id": 112,
        "name": "Ana Maria Oliveira Battastini",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "RS",
        "region": "Sul",
@@ -1459,7 +1459,7 @@
      {
        "id": 113,
        "name": "Maria Martha Campos",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "RS",
        "region": "Sul",
@@ -1472,7 +1472,7 @@
      {
        "id": 114,
        "name": "Gerly Anne de Castro Brito",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "CE",
        "region": "Nordeste",
@@ -1485,7 +1485,7 @@
      {
        "id": 115,
        "name": "Juliana da Silva",
-       "color": red,
+       "color": "red",
        "race": "branca",
        "state": "RS",
        "region": "Sul",
@@ -1498,7 +1498,7 @@
      {
        "id": 116,
        "name": "Helena Carla Castro",
-       "color": red,
+       "color": "red",
        "race": "preta",
        "state": "RJ",
        "region": "Sudeste",
