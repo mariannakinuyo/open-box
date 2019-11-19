@@ -4,15 +4,15 @@ console.log('geral');
 // console.log(pessoas.g);
 console.log("olar");
 
-var novoArray = [];
-pessoas.nodes.forEach(function(item, index) {
-  let aux = {};
-  aux.id = index;
-  aux.cx = "415";
-  aux.cy = "120";
-  aux.r = item.size;
-  novoArray.push(aux);
-});
+// var novoArray = [];
+// pessoas.nodes.forEach(function(item, index) {
+//   let aux = {};
+//   aux.id = index;
+//   aux.cx = "415";
+//   aux.cy = "120";
+//   aux.r = item.size;
+//   novoArray.push(aux);
+// });
 // declaracao de algumas variaveis necessarias
 var blue = "rgb(0, 0, 255)",
     red = "rgb(255, 0, 0)",

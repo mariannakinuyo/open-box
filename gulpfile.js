@@ -30,7 +30,7 @@ gulp.task('js', function(){
 // adicionar páginas ['src/js/about.js'] => ['src/js/about.js','src/js/contact.js']
 gulp.task('pages', function(){
   return gulp
-    .src(['src/js/about.js', 'src/js/complete.js'])
+    .src(['src/js/about.js', 'src/js/complete.js', 'src/js/script-top.js', ])
     .pipe(gulp.dest('js'))
 });
 
