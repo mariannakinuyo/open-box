@@ -12,6 +12,28 @@ svg {
   margin: 1em auto;
 }
 
+.dark {
+  color: $dark;
+}
+
+.lightgrey {
+  color: $lightgrey;
+}
+
+.h-filter {
+  transition: 0.5;
+}
+
+.h-filter:hover {
+  transition: 0.5;
+  fill: white;
+  cursor: pointer;
+}
+
+.h-filter.active {
+  fill: white;
+}
+
 
 
 
