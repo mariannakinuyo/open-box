@@ -25,9 +25,6 @@
 
       <div class="col-lg-8">
 
-
-
-
         <svg width="872" height="737" viewBox="0 0 872 737" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M506.689 65.0476C572.677 77.2663 632.883 110.662 678.185 160.173C723.487 209.685 751.415 272.614 757.738 339.424C764.061 406.235 748.433 473.286 713.223 530.417C678.013 587.548 625.14 631.644 562.616 656.025C500.092 680.405 431.325 683.74 366.735 665.525C302.145 647.31 245.253 608.537 204.68 555.082C164.106 501.627 142.063 436.403 141.89 369.294C141.718 302.185 163.425 236.849 203.723 183.185" stroke="#BDBDBD"/>
         <path d="M507.028 127.032C558.667 139.157 605.052 167.537 639.357 207.995C673.662 248.453 694.076 298.853 697.595 351.781C701.115 404.708 687.554 457.367 658.908 502.011C630.262 546.655 588.043 580.927 538.464 599.783C488.884 618.639 434.562 621.084 383.488 606.759C332.415 592.434 287.288 562.095 254.747 520.205C222.205 478.315 203.968 427.087 202.718 374.058C201.467 321.029 217.27 268.998 247.801 225.621" stroke="#BDBDBD"/>
@@ -55,10 +52,10 @@
         <circle cx="450.504" cy="369.555" r="123.842" transform="rotate(-66.0357 450.504 369.555)" stroke="rgba(255,255,255,0)"/>
         <rect x="399.5" y="244.5" width="107" height="24" rx="2.5" stroke="#BDBDBD"/>
         <!-- criar bolinhas aqui com seus respectivos ids-->
-        <circle id="um" cx="511" cy="261.5" r="4" fill="#F5EB35"/>
-        <circle id="two" cx="511" cy="194.5" r="4" fill="#2687FC"/>
-        <circle id="tres" cx="511" cy="127.5" r="4" fill="#00B868"/>
-        <circle id="four" cx="511" cy="63.9999" r="4" fill="#E04F2E"/>
+        <circle v-for="(pessoa) in arrayExterior" :id="'exterior-' + pessoa.id" cx="511" cy="261.5" :r="pessoa.size > 40 ? 40 : pessoa.size" fill="#F5EB35"/>
+        <circle v-for="(pessoa) in arrayPrivada" :id="'privada-' + pessoa.id" cx="511" cy="194.5" :r="pessoa.size > 40 ? 40 : pessoa.size" fill="#2687FC"/>
+        <circle v-for="(pessoa) in arrayEstadual" :id="'estadual-' + pessoa.id" cx="511" cy="127.5" :r="pessoa.size > 40 ? 40 : pessoa.size" fill="#00B868"/>
+        <circle v-for="(pessoa) in arrayFederal" :id="'federal-' + pessoa.id" cx="511" cy="63.9999" :r="pessoa.size > 40 ? 40 : pessoa.size" fill="#E04F2E"/>
 
 
         <defs>
@@ -83,13 +80,16 @@
     </div>
   </div>
 
-  <!-- <script src="/src/js/complete.js">
-  </script> -->
-  <!-- <script src="/js/script.js"> -->
+  <!-- <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="/src/js/complete.js"></script>
   <script src="src/js/script-top.js"></script>
+  <script src="src/js/funcao.js"></script>
+  <!-- <script src="/js/script.js"> -->
   <script>
-
-
 
 
   // $(document).ready(function() {
@@ -100,7 +100,6 @@
   //
   //      );
   //  });
-
 
 
   </script>
