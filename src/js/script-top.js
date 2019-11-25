@@ -23,20 +23,12 @@ var app = new Vue({
             return e.type == 'exterior';
         });
 
-        // declaracao de algumas variaveis necessarias
-        var blue = "rgba(0, 0, 255, 0.5)",
-            red = "rgba(255, 0, 0, 0.5)",
-            yellow = "rgba(255, 255, 0, 0.5)",
-            purple = "rgba(194, 74, 255, 0.5)",
-            green = "rgba(0, 255, 0, 0.5)",
-            g;
-
     },
 
     methods: {
         bolinhasNoMapa: function () {
 
-            
+
 
         // // id de cada circle - puxar da tabela
         //     var two = document.getElementById('federal-');
@@ -100,5 +92,3 @@ var app = new Vue({
         },
     },
 });
-
-
