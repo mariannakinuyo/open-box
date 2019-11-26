@@ -8,12 +8,16 @@ body {
   font-weight: 400;
 }
 
-
 svg {
   // border: 3px solid #eee;
   display: block;
   margin: 1em auto;
 }
+
+h5 {
+  font-size: 14px;
+}
+
 
 .dark {
   color: $dark;
@@ -21,6 +25,14 @@ svg {
 
 .lightgrey {
   color: $lightgrey;
+}
+
+.newgrey {
+  color: $newgrey;
+}
+
+.white {
+  color: white;
 }
 
 .h-filter {
@@ -38,7 +50,81 @@ svg {
 }
 
 
+/* Hide the browser's default checkbox */
+.c-filter {
+  position: relative;
+  display: block;
+  color: $newgrey;
+  margin-left: 30px;
+  cursor: pointer;
+}
 
+.c-filter input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  left: -30px;
+  height: 20px;
+  width: 20px;
+  border: 1px solid $newgrey;
+}
+
+/* On mouse-over, add a grey background color */
+.c-filter:hover input ~ .checkmark {
+  &-green {
+    background-color: $green;
+    border: 1px solid transparent;
+  }
+  &-red {
+    background-color: $red;
+    border: 1px solid transparent;
+  }
+  &-yellow {
+    background-color: $yellow;
+    border: 1px solid transparent;
+  }
+  &-purple {
+    background-color: $purple;
+    border: 1px solid transparent;
+  }
+  &-blue {
+    background-color: $blue;
+    border: 1px solid transparent;
+  }
+}
+
+/* When the checkbox is checked, add a blue background */
+.c-filter input:checked ~ .checkmark {
+  &-green {
+    background-color: $green;
+    border: 1px solid transparent;
+  }
+  &-red {
+    background-color: $red;
+    border: 1px solid transparent;
+  }
+  &-yellow {
+    background-color: $yellow;
+    border: 1px solid transparent;
+  }
+  &-purple {
+    background-color: $purple;
+    border: 1px solid transparent;
+  }
+  &-blue {
+    background-color: $blue;
+    border: 1px solid transparent;
+  }
+}
 
 
 
