@@ -79,28 +79,28 @@ h5 {
 }
 
 /* On mouse-over, add a grey background color */
-.c-filter:hover input ~ .checkmark {
-  &-green {
-    background-color: $green;
-    border: 1px solid transparent;
-  }
-  &-red {
-    background-color: $red;
-    border: 1px solid transparent;
-  }
-  &-yellow {
-    background-color: $yellow;
-    border: 1px solid transparent;
-  }
-  &-purple {
-    background-color: $purple;
-    border: 1px solid transparent;
-  }
-  &-blue {
-    background-color: $blue;
-    border: 1px solid transparent;
-  }
-}
+// .c-filter:hover input ~ .checkmark {
+//   &-green {
+//     background-color: $green;
+//     border: 1px solid transparent;
+//   }
+//   &-red {
+//     background-color: $red;
+//     border: 1px solid transparent;
+//   }
+//   &-yellow {
+//     background-color: $yellow;
+//     border: 1px solid transparent;
+//   }
+//   &-purple {
+//     background-color: $purple;
+//     border: 1px solid transparent;
+//   }
+//   &-blue {
+//     background-color: $blue;
+//     border: 1px solid transparent;
+//   }
+// }
 
 /* When the checkbox is checked, add a blue background */
 .c-filter input:checked ~ .checkmark {
