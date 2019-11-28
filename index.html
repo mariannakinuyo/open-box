@@ -52,10 +52,10 @@
         <circle cx="450.504" cy="369.555" r="123.842" transform="rotate(-66.0357 450.504 369.555)" stroke="rgba(255,255,255,0)"/>
         <rect x="399.5" y="244.5" width="107" height="24" rx="2.5" stroke="#BDBDBD"/>
         <!-- criar bolinhas aqui com seus respectivos ids-->
-        <circle v-for="(pessoa) in arrayExterior" :id="'exterior-' + pessoa.id" cx="511" cy="261.5" :r="pessoa.size > 30 ? 30 : (pessoa.size+4)" :fill="pessoa.color"/>
-        <circle v-for="(pessoa) in arrayPrivada" :id="'privada-' + pessoa.id" cx="511" cy="194.5" :r="pessoa.size > 30 ? 30 : (pessoa.size+4)" :fill="pessoa.color"/>
-        <circle v-for="(pessoa) in arrayEstadual" :id="'estadual-' + pessoa.id" cx="511" cy="127.5" :r="pessoa.size > 30 ? 30 : (pessoa.size+4)" :fill="pessoa.color"/>
-        <circle v-for="(pessoa) in arrayFederal" :id="'federal-' + pessoa.id" cx="511" cy="63.9999" :r="pessoa.size > 30 ? 30 : (pessoa.size+4)" :fill="pessoa.color"/>
+        <circle v-for="(pessoa) in arrayExterior" :id="'exterior-' + pessoa.id" cx="511" cy="261.5" :r="pessoa.size" :fill="pessoa.color"/>
+        <circle v-for="(pessoa) in arrayPrivada" :id="'privada-' + pessoa.id" cx="511" cy="194.5" :r="pessoa.size" :fill="pessoa.color"/>
+        <circle v-for="(pessoa) in arrayEstadual" :id="'estadual-' + pessoa.id" cx="511" cy="127.5" :r="pessoa.size" :fill="pessoa.color"/>
+        <circle v-for="(pessoa) in arrayFederal" :id="'federal-' + pessoa.id" cx="511" cy="63.9999" :r="pessoa.size" :fill="pessoa.color"/>
 
 
         <defs>
@@ -107,6 +107,7 @@
   crossorigin="anonymous"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <script src="src/js/complete.js"></script>
+  <script src="src/js/filtered-arrays.js"></script>
   <script src="src/js/script-top.js"></script>
   <script src="src/js/funcao.js"></script>
   <!-- <script src="/js/script.js"> -->

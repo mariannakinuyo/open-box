@@ -7,19 +7,6 @@ var interval = 30;
 var angle = 0;
 var angle_increment = 6;
 
-var arrayFederal = pessoas.nodes.filter(e => {
-    return e.type == 'federal';
-});
-var arrayEstadual = pessoas.nodes.filter(e => {
-    return e.type == 'estadual';
-});
-var arrayPrivada = pessoas.nodes.filter(e => {
-    return e.type == 'privada';
-});
-var arrayExterior = pessoas.nodes.filter(e => {
-    return e.type == 'exterior';
-});
-
 arrayExterior.forEach((el, index) => {
     var um = document.getElementById('exterior-'+el.id);
     var degrees = el.degrees; // puxar da tabela

@@ -8,27 +8,14 @@ var app = new Vue({
     },
 
     mounted() {
-        var _this = this;
-
-        this.arrayFederal = pessoas.nodes.filter(e => {
-            return e.type == 'federal';
-        });
-        this.arrayEstadual = pessoas.nodes.filter(e => {
-            return e.type == 'estadual';
-        });
-        this.arrayPrivada = pessoas.nodes.filter(e => {
-            return e.type == 'privada';
-        });
-        this.arrayExterior = pessoas.nodes.filter(e => {
-            return e.type == 'exterior';
-        });
-
+        this.arrayFederal = arrayFederal;
+        this.arrayEstadual = arrayEstadual;
+        this.arrayPrivada = arrayPrivada;
+        this.arrayExterior = arrayExterior;
     },
 
     methods: {
         bolinhasNoMapa: function () {
-
-
 
         // // id de cada circle - puxar da tabela
         //     var two = document.getElementById('federal-');
