@@ -52,11 +52,10 @@
         <circle cx="450.504" cy="369.555" r="123.842" transform="rotate(-66.0357 450.504 369.555)" stroke="rgba(255,255,255,0)"/>
         <rect x="399.5" y="244.5" width="107" height="24" rx="2.5" stroke="#BDBDBD"/>
         <!-- criar bolinhas aqui com seus respectivos ids-->
-        <circle v-for="(pessoa) in arrayExterior" :id="'exterior-' + pessoa.id" cx="511" cy="261.5" :r="pessoa.size" :fill="pessoa.color"/>
-        <circle v-for="(pessoa) in arrayPrivada" :id="'privada-' + pessoa.id" cx="511" cy="194.5" :r="pessoa.size" :fill="pessoa.color"/>
-        <circle v-for="(pessoa) in arrayEstadual" :id="'estadual-' + pessoa.id" cx="511" cy="127.5" :r="pessoa.size" :fill="pessoa.color"/>
-        <circle v-for="(pessoa) in arrayFederal" :id="'federal-' + pessoa.id" cx="511" cy="63.9999" :r="pessoa.size" :fill="pessoa.color"/>
-
+        <circle v-for="(pessoa) in compExterior" :id="'exterior-' + pessoa.id" cx="511" cy="261.5" :r="pessoa.size" :fill="pessoa.color"/>
+        <circle v-for="(pessoa) in compPrivada" :id="'privada-' + pessoa.id" cx="511" cy="194.5" :r="pessoa.size" :fill="pessoa.color"/>
+        <circle v-for="(pessoa) in compEstadual" :id="'estadual-' + pessoa.id" cx="511" cy="127.5" :r="pessoa.size" :fill="pessoa.color"/>
+        <circle v-for="(pessoa) in compFederal" :id="'federal-' + pessoa.id" cx="511" cy="63.9999" :r="pessoa.size" :fill="pessoa.color"/>
 
         <defs>
         <clipPath id="clip0">
@@ -70,29 +69,28 @@
 
       </div>
 
-
       <div class="col-lg-2">
         <div class="mt-lg-5 mt-3">
           <h5 class="newgrey text-uppercase mb-lg-4">Área de pesquisa</h5>
           <div class="">
             <label class="c-filter">Ciências biológicas
-              <input type="checkbox" checked="checked">
+              <input type="checkbox" v-model="filter.biologicas"> <!--  @click="filterGreen" -->
               <span class="checkmark checkmark-green"></span>
             </label>
             <label class="c-filter">Ciências sociais aplicadas
-              <input type="checkbox" checked="checked">
+              <input type="checkbox" v-model="filter.sociais">
               <span class="checkmark checkmark-red"></span>
             </label>
             <label class="c-filter">Ciências exatas e da terra
-              <input type="checkbox" checked="checked">
+              <input type="checkbox" v-model="filter.exatas">
               <span class="checkmark checkmark-yellow"></span>
             </label>
             <label class="c-filter">Engenharias
-              <input type="checkbox" checked="checked">
+              <input type="checkbox" v-model="filter.engenharias">
               <span class="checkmark checkmark-purple"></span>
             </label>
             <label class="c-filter">Ciências da sáude
-              <input type="checkbox" checked="checked">
+              <input type="checkbox" v-model="filter.saude">
               <span class="checkmark checkmark-blue"></span>
             </label>
           </div>

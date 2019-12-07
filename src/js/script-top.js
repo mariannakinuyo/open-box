@@ -5,6 +5,13 @@ var app = new Vue({
         arrayEstadual: [],
         arrayPrivada: [],
         arrayExterior: [],
+        filter: {
+            biologicas: true,
+            sociais: true,
+            exatas: true,
+            engenharias: true,
+            saude: true,
+        },
     },
 
     mounted() {
@@ -14,68 +21,192 @@ var app = new Vue({
         this.arrayExterior = arrayExterior;
     },
 
-    methods: {
-        bolinhasNoMapa: function () {
-
-        // // id de cada circle - puxar da tabela
-        //     var two = document.getElementById('federal-');
-        //     var tres = document.getElementById('tres');
-        //     var four = document.getElementById('four');
-        //     var um = document.getElementById('um');
-
-        // // posição final das bolinhas - premios
-            // var degrees = degrees; // puxar da tabela
-            // var num = 100*2.15; // degrees * 2.15 - trocar o 100 por degrees
-            // var max_angle = Math.round(num); // posição final da bolinha
-
-        // // tamanho da bolinha - artigos
-        //     var size = size; // puxar da tabela
-        //     //  var numsize = 50*0.14;  // size * 0.14 - trocar o 50 por size
-        //     //  var finalsize = Math.round(numsize); // tamanho da bolinha
-
-        // // cor da bolinha
-        //     var color = color; // puxar da tabela
-
-        //     window.timer = window.setInterval(function () {
-        //         var cos = Math.cos(angle/180*Math.PI);
-        //         var sen = Math.sin(angle/180*Math.PI);
-        //         //  console.log(angle)
-        //         //  console.log(cos)
-
-        // // (federais) primeiro circulo de fora - cx e cy posiçao inicial da bolinha no circulo de fora, calcula com o raio do circulo de fora
-        //         um.setAttribute("cx", 450.504 + (sen * 123.842));
-        //         um.setAttribute("cy", 369.555 - (cos * 123.842));
-        //         um.setAttribute("r", 30);  // colocar o size
-        //         um.setAttribute("fill", yellow); // colocar a color
-
-        // // (estaduais) segundo circulo de fora - cx e cy posiçao inicial da bolinha no circulo de fora, calcula com o raio do circulo de fora
-        //         two.setAttribute("cx", 449.447 + (sen * 185.611));
-        //         two.setAttribute("cy", 369.552 - (cos * 185.611));
-        //         two.setAttribute("r", 15);  // colocar o size
-        //         two.setAttribute("fill", red);  // colocar a color
-
-        // // (exterior) terceiro circulo de fora - cx e cy posiçao inicial da bolinha no circulo de fora, calcula com o raio do circulo de fora
-        //         tres.setAttribute("cx", 450.219 + (sen * 247.746));
-        //         tres.setAttribute("cy", 368.363 - (cos * 247.746));
-        //         tres.setAttribute("r", 10);  // colocar o size
-        //         tres.setAttribute("fill", green);  // colocar a color
-
-        // // (privadas) quarto circulo de fora - cx e cy posiçao inicial da bolinha no circulo de fora, calcula com o raio do circulo de fora
-        //         four.setAttribute("cx", 450.5 + (sen * 308.611));
-        //         four.setAttribute("cy", 368.5 - (cos * 308.611));
-        //         four.setAttribute("r", 5); // colocar o size
-        //         four.setAttribute("fill", blue);  // colocar a color
-
-        // // movimento
-        //         myTimer.innerHTML = parseInt(angle/360*100) + '%';
-        //         myTimer.setAttribute("fill", "hsl(" + parseInt(angle/360*100) + ", 90%, 45%)");
-
-        //         if (angle >= max_angle) {
-        //             window.clearInterval(window.timer);
-        //         };
-
-        //         angle += angle_increment;
-        //     }.bind(this), interval);
+    computed: {
+        compFederal() {
+            var vetor = [];
+            this.arrayFederal.forEach((e) => {
+                if (e.color == 'rgba(0, 184, 104, 0.5)' && this.filter.biologicas) {
+                    vetor.push(e);
+                }
+                if (e.color == 'rgba(224, 79, 46, 0.5)' && this.filter.sociais) {
+                    vetor.push(e);
+                }
+                if (e.color == 'rgba(245, 235, 53, 0.5)' && this.filter.exatas) {
+                    vetor.push(e);
+                }
+                if (e.color == 'rgba(215, 64, 255, 0.5)' && this.filter.engenharias) {
+                    vetor.push(e);
+                }
+                if (e.color == 'rgba(38, 135, 252, 0.5)' && this.filter.saude) {
+                    vetor.push(e);
+                }
+            });
+            return vetor;
         },
+
+        compEstadual() {
+            var vetor = [];
+            this.arrayEstadual.forEach((e) => {
+                if (e.color == 'rgba(0, 184, 104, 0.5)' && this.filter.biologicas) {
+                    vetor.push(e);
+                }
+                if (e.color == 'rgba(224, 79, 46, 0.5)' && this.filter.sociais) {
+                    vetor.push(e);
+                }
+                if (e.color == 'rgba(245, 235, 53, 0.5)' && this.filter.exatas) {
+                    vetor.push(e);
+                }
+                if (e.color == 'rgba(215, 64, 255, 0.5)' && this.filter.engenharias) {
+                    vetor.push(e);
+                }
+                if (e.color == 'rgba(38, 135, 252, 0.5)' && this.filter.saude) {
+                    vetor.push(e);
+                }
+            });
+            return vetor;
+        },
+
+        compPrivada() {
+            var vetor = [];
+            this.arrayPrivada.forEach((e) => {
+                if (e.color == 'rgba(0, 184, 104, 0.5)' && this.filter.biologicas) {
+                    vetor.push(e);
+                }
+                if (e.color == 'rgba(224, 79, 46, 0.5)' && this.filter.sociais) {
+                    vetor.push(e);
+                }
+                if (e.color == 'rgba(245, 235, 53, 0.5)' && this.filter.exatas) {
+                    vetor.push(e);
+                }
+                if (e.color == 'rgba(215, 64, 255, 0.5)' && this.filter.engenharias) {
+                    vetor.push(e);
+                }
+                if (e.color == 'rgba(38, 135, 252, 0.5)' && this.filter.saude) {
+                    vetor.push(e);
+                }
+            });
+            return vetor;
+        },
+
+        compExterior() {
+            var vetor = [];
+            this.arrayExterior.forEach((e) => {
+                if (e.color == 'rgba(0, 184, 104, 0.5)' && this.filter.biologicas) {
+                    vetor.push(e);
+                }
+                if (e.color == 'rgba(224, 79, 46, 0.5)' && this.filter.sociais) {
+                    vetor.push(e);
+                }
+                if (e.color == 'rgba(245, 235, 53, 0.5)' && this.filter.exatas) {
+                    vetor.push(e);
+                }
+                if (e.color == 'rgba(215, 64, 255, 0.5)' && this.filter.engenharias) {
+                    vetor.push(e);
+                }
+                if (e.color == 'rgba(38, 135, 252, 0.5)' && this.filter.saude) {
+                    vetor.push(e);
+                }
+            });
+            return vetor;
+        },
+    },
+
+    methods: {
+        filterGreen() {
+            let novo = [];
+            if (!this.filter.biologicas) { // incluir
+                novo = this.arrayFederal;
+                arrayFederal.forEach((e) => {
+                    if (e.color == 'rgba(0, 184, 104, 0.5)') {
+                        novo.push(e);
+                    }
+                });
+                this.arrayFederal = novo;
+                novo = this.arrayEstadual;
+                this.arrayEstadual.forEach((e) => {
+                    if (e.color == 'rgba(0, 184, 104, 0.5)') {
+                        novo.push(e);
+                    }
+                });
+                this.arrayEstadual = novo;
+                novo = this.arrayPrivada;
+                this.arrayPrivada.forEach((e) => {
+                    if (e.color == 'rgba(0, 184, 104, 0.5)') {
+                        novo.push(e);
+                    }
+                });
+                this.arrayPrivada = novo;
+                novo = this.arrayExterior;
+                arrayExterior.forEach((e) => {
+                    if (e.color == 'rgba(0, 184, 104, 0.5)') {
+                        novo.push(e);
+                    }
+                });
+                this.arrayExterior = novo;
+                novo = [];
+            } else { // remover rgba(0, 184, 104, 0.5)
+                this.arrayFederal.forEach((e) => {
+                    if (e.color != 'rgba(0, 184, 104, 0.5)') {
+                        novo.push(e);
+                    }
+                });
+                this.arrayFederal = novo;
+                novo = [];
+                this.arrayEstadual.forEach((e) => {
+                    if (e.color != 'rgba(0, 184, 104, 0.5)') {
+                        novo.push(e);
+                    }
+                });
+                this.arrayEstadual = novo;
+                novo = [];
+                this.arrayPrivada.forEach((e) => {
+                    if (e.color != 'rgba(0, 184, 104, 0.5)') {
+                        novo.push(e);
+                    }
+                });
+                this.arrayPrivada = novo;
+                novo = [];
+                this.arrayExterior.forEach((e) => {
+                    if (e.color != 'rgba(0, 184, 104, 0.5)') {
+                        novo.push(e);
+                    }
+                });
+                this.arrayExterior = novo;
+                novo = [];
+            }
+        },
+
+        filterRed() {
+            if (this.filter.sociais) {
+                // incluir
+            } else {
+                // remover rgba(224, 79, 46, 0.5)
+            }
+        },
+
+        filterYellow() {
+            if (this.filter.exatas) {
+                // incluir
+            } else {
+                // remover rgba(245, 235, 53, 0.5)
+            }
+        },
+
+        filterPurple() {
+            if (this.filter.engenharias) {
+                // incluir
+            } else {
+                // remover rgba(215, 64, 255, 0.5)
+            }
+        },
+
+        filterBlue() {
+            if (this.filter.saude) {
+                // incluir
+            } else {
+                // remover rgba(38, 135, 252, 0.5)
+            }
+        },
+
     },
 });
