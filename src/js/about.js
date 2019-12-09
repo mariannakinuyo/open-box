@@ -1,2 +1,0 @@
-// about
-console.log('about');

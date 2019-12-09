@@ -7,6 +7,7 @@ var interval = 30;
 var angle = 0;
 var angle_increment = 6;
 
+// EXTERIOR
 arrayExterior.forEach((el, index) => {
     var um = document.getElementById('exterior-'+el.id);
     var degrees = el.degrees; // puxar da tabela
@@ -17,7 +18,6 @@ arrayExterior.forEach((el, index) => {
         var cos = Math.cos(num/180*Math.PI);
         var sen = Math.sin(num/180*Math.PI);
         myTimer.innerHTML = parseInt(angle/360*100) + '%';
-        myTimer.setAttribute("fill", "hsl(" + parseInt(angle/360*100) + ", 90%, 45%)");
         um.setAttribute("cx", 450.504 + (sen * 123.842));
         um.setAttribute("cy", 369.555 - (cos * 123.842));
         if (angle >= max_angle) {
@@ -28,6 +28,7 @@ arrayExterior.forEach((el, index) => {
 
 });
 
+// PRIVADA
 arrayPrivada.forEach((el, index) => {
     var um = document.getElementById('privada-'+el.id);
     var degrees = el.degrees; // puxar da tabela
@@ -38,7 +39,6 @@ arrayPrivada.forEach((el, index) => {
 
     window.timer = window.setInterval(function () {
         myTimer.innerHTML = parseInt(angle/360*100) + '%';
-        myTimer.setAttribute("fill", "hsl(" + parseInt(angle/360*100) + ", 90%, 45%)");
         um.setAttribute("cx", 449.447 + (sen * 185.611));
         um.setAttribute("cy", 369.552 - (cos * 185.611));
         if (angle >= max_angle) {
@@ -48,6 +48,7 @@ arrayPrivada.forEach((el, index) => {
     }.bind(this), interval);
 });
 
+// ESTADUAL
 arrayEstadual.forEach((el, index) => {
     var um = document.getElementById('estadual-'+el.id);
     var degrees = el.degrees; // puxar da tabela
@@ -58,7 +59,6 @@ arrayEstadual.forEach((el, index) => {
 
     window.timer = window.setInterval(function () {
         myTimer.innerHTML = parseInt(angle/360*100) + '%';
-        myTimer.setAttribute("fill", "hsl(" + parseInt(angle/360*100) + ", 90%, 45%)");
         um.setAttribute("cx", 450.5 + (sen * 308.611));
         um.setAttribute("cy", 368.5 - (cos * 308.611));
         if (angle >= max_angle) {
@@ -68,17 +68,19 @@ arrayEstadual.forEach((el, index) => {
     }.bind(this), interval);
 });
 
+// FEDERAL
 arrayFederal.forEach((el, index) => {
     var um = document.getElementById('federal-'+el.id);
     var degrees = el.degrees; // puxar da tabela
     var num = (degrees+7.5)*1.73; // degrees * 2.15 - trocar o 100 por degrees
     var max_angle = Math.round(num); // posição final da bolinha
+
+
     var cos = Math.cos(num/180*Math.PI);
     var sen = Math.sin(num/180*Math.PI);
 
     window.timer = window.setInterval(function () {
         myTimer.innerHTML = parseInt(angle/360*100) + '%';
-        myTimer.setAttribute("fill", "hsl(" + parseInt(angle/360*100) + ", 90%, 45%)");
         um.setAttribute("cx", 450.219 + (sen * 247.746));
         um.setAttribute("cy", 368.363 - (cos * 247.746));
         if (angle >= max_angle) {
