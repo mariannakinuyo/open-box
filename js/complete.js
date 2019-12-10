@@ -24,7 +24,7 @@ pessoas = {
    "size": 19,
    "member": "não",
    "origin-degrees": 0,
-   "degrees": 1,
+   "degrees": 2,
    "type": "estadual",
    "ranking": 2202
  },
@@ -38,7 +38,7 @@ pessoas = {
    "size": 11,
    "member": "não",
    "origin-degrees": 0,
-   "degrees": 1,
+   "degrees": 3,
    "type": "estadual",
    "ranking": 1948
  },
@@ -52,7 +52,7 @@ pessoas = {
    "size": 5,
    "member": "não",
    "origin-degrees": 0,
-   "degrees": 1,
+   "degrees": 4,
    "type": "estadual",
    "ranking": 1740
  },
@@ -66,7 +66,7 @@ pessoas = {
    "size": 9,
    "member": "não",
    "origin-degrees": 0,
-   "degrees": 1,
+   "degrees": 5,
    "type": "estadual",
    "ranking": 741
  },
@@ -80,7 +80,7 @@ pessoas = {
    "size": 0,
    "member": "não",
    "origin-degrees": 0,
-   "degrees": 1,
+   "degrees": 6,
    "type": "estadual",
    "ranking": 601
  },
@@ -94,7 +94,7 @@ pessoas = {
    "size": 5,
    "member": "não",
    "origin-degrees": 0,
-   "degrees": 1,
+   "degrees": 7,
    "type": "estadual",
    "ranking": 363
  },
@@ -108,7 +108,7 @@ pessoas = {
    "size": 11,
    "member": "não",
    "origin-degrees": 0,
-   "degrees": 1,
+   "degrees": 8,
    "type": "estadual",
    "ranking": 345
  },
@@ -136,7 +136,7 @@ pessoas = {
    "size": 4,
    "member": "não",
    "origin-degrees": 1,
-   "degrees": 12,
+   "degrees": 13,
    "type": "estadual",
    "ranking": 438
  },
@@ -164,7 +164,7 @@ pessoas = {
    "size": 15,
    "member": "não",
    "origin-degrees": 2,
-   "degrees": 24,
+   "degrees": 25,
    "type": "estadual",
    "ranking": 928
  },
@@ -178,7 +178,7 @@ pessoas = {
    "size": 9,
    "member": "não",
    "origin-degrees": 2,
-   "degrees": 24,
+   "degrees": 26,
    "type": "estadual",
    "ranking": 553
  },
@@ -206,7 +206,7 @@ pessoas = {
    "size": 63,
    "member": "não",
    "origin-degrees": 3,
-   "degrees": 37,
+   "degrees": 38,
    "type": "estadual",
    "ranking": 710
  },
@@ -220,7 +220,7 @@ pessoas = {
    "size": 10,
    "member": "não",
    "origin-degrees": 3,
-   "degrees": 37,
+   "degrees": 39,
    "type": "estadual",
    "ranking": 418
  },
@@ -234,7 +234,7 @@ pessoas = {
    "size": 8,
    "member": "não",
    "origin-degrees": 3,
-   "degrees": 37,
+   "degrees": 40,
    "type": "estadual",
    "ranking": 367
  },
@@ -262,7 +262,7 @@ pessoas = {
    "size": 32,
    "member": "não",
    "origin-degrees": 4,
-   "degrees": 49,
+   "degrees": 50,
    "type": "estadual",
    "ranking": 416
  },
@@ -276,7 +276,7 @@ pessoas = {
    "size": 33,
    "member": "não",
    "origin-degrees": 4,
-   "degrees": 49,
+   "degrees": 51,
    "type": "estadual",
    "ranking": 398
  },
@@ -304,7 +304,7 @@ pessoas = {
    "size": 2,
    "member": "não",
    "origin-degrees": 5,
-   "degrees": 61,
+   "degrees": 62,
    "type": "estadual",
    "ranking": 721
  },
@@ -318,7 +318,7 @@ pessoas = {
    "size": 3,
    "member": "não",
    "origin-degrees": 5,
-   "degrees": 61,
+   "degrees": 63,
    "type": "estadual",
    "ranking": 449
  },
@@ -332,7 +332,7 @@ pessoas = {
    "size": 34,
    "member": "não",
    "origin-degrees": 5,
-   "degrees": 61,
+   "degrees": 64,
    "type": "estadual",
    "ranking": 555
  },
@@ -360,7 +360,7 @@ pessoas = {
    "size": 19,
    "member": "não",
    "origin-degrees": 7,
-   "degrees": 86,
+   "degrees": 87,
    "type": "estadual",
    "ranking": 683
  },
@@ -374,7 +374,7 @@ pessoas = {
    "size": 17,
    "member": "não",
    "origin-degrees": 7,
-   "degrees": 86,
+   "degrees": 88,
    "type": "estadual",
    "ranking": 431
  },
@@ -402,7 +402,7 @@ pessoas = {
    "size": 41,
    "member": "não",
    "origin-degrees": 8,
-   "degrees": 98,
+   "degrees": 99,
    "type": "estadual",
    "ranking": 731
  },
@@ -416,7 +416,7 @@ pessoas = {
    "size": 10,
    "member": "sim",
    "origin-degrees": 8,
-   "degrees": 98,
+   "degrees": 99,
    "type": "estadual",
    "ranking": 543
  },
@@ -430,7 +430,7 @@ pessoas = {
    "size": 5,
    "member": "não",
    "origin-degrees": 8,
-   "degrees": 98,
+   "degrees": 100,
    "type": "estadual",
    "ranking": 233
  },
@@ -444,7 +444,7 @@ pessoas = {
    "size": 10,
    "member": "não",
    "origin-degrees": 8,
-   "degrees": 98,
+   "degrees": 101,
    "type": "estadual",
    "ranking": 205
  },
@@ -458,7 +458,7 @@ pessoas = {
    "size": 7,
    "member": "não",
    "origin-degrees": 8,
-   "degrees": 98,
+   "degrees": 102,
    "type": "estadual",
    "ranking": 307
  },
@@ -486,7 +486,7 @@ pessoas = {
    "size": 32,
    "member": "não",
    "origin-degrees": 10,
-   "degrees": 122,
+   "degrees": 123,
    "type": "estadual",
    "ranking": 465
  },
@@ -500,7 +500,7 @@ pessoas = {
    "size": 4,
    "member": "não",
    "origin-degrees": 10,
-   "degrees": 122,
+   "degrees": 124,
    "type": "estadual",
    "ranking": 419
  },
@@ -514,7 +514,7 @@ pessoas = {
    "size": 16,
    "member": "não",
    "origin-degrees": 10,
-   "degrees": 122,
+   "degrees": 125,
    "type": "estadual",
    "ranking": 385
  },
@@ -542,7 +542,7 @@ pessoas = {
    "size": 1,
    "member": "não",
    "origin-degrees": 11,
-   "degrees": 154,
+   "degrees": 155,
    "type": "estadual",
    "ranking": 285
  },
@@ -598,7 +598,7 @@ pessoas = {
    "size": 2,
    "member": "não",
    "origin-degrees": 12,
-   "degrees": 157,
+   "degrees": 158,
    "type": "estadual",
    "ranking": 191
  },
@@ -612,7 +612,7 @@ pessoas = {
    "size": 12,
    "member": "não",
    "origin-degrees": 12,
-   "degrees": 157,
+   "degrees": 159,
    "type": "estadual",
    "ranking": 305
  },
@@ -640,7 +640,7 @@ pessoas = {
    "size": 29,
    "member": "sim",
    "origin-degrees": 14,
-   "degrees": 163,
+   "degrees": 164,
    "type": "estadual",
    "ranking": 987
  },
@@ -668,7 +668,7 @@ pessoas = {
    "size": 30,
    "member": "não",
    "origin-degrees": 15,
-   "degrees": 166,
+   "degrees": 167,
    "type": "estadual",
    "ranking": 826
  },
@@ -696,7 +696,7 @@ pessoas = {
    "size": 1,
    "member": "não",
    "origin-degrees": 15,
-   "degrees": 166,
+   "degrees": 168,
    "type": "estadual",
    "ranking": 233
  },
@@ -710,7 +710,7 @@ pessoas = {
    "size": 19,
    "member": "não",
    "origin-degrees": 16,
-   "degrees": 168,
+   "degrees": 169,
    "type": "estadual",
    "ranking": 666
  },
@@ -724,7 +724,7 @@ pessoas = {
    "size": 9,
    "member": "não",
    "origin-degrees": 16,
-   "degrees": 168,
+   "degrees": 170,
    "type": "estadual",
    "ranking": 592
  },
@@ -780,7 +780,7 @@ pessoas = {
    "size": 1,
    "member": "não",
    "origin-degrees": 19,
-   "degrees": 177,
+   "degrees": 178,
    "type": "estadual",
    "ranking": 301
  },
@@ -836,7 +836,7 @@ pessoas = {
    "size": 7,
    "member": "não",
    "origin-degrees": 21,
-   "degrees": 205,
+   "degrees": 206,
    "type": "estadual",
    "ranking": 805
  },
@@ -850,7 +850,7 @@ pessoas = {
    "size": 14,
    "member": "sim",
    "origin-degrees": 22,
-   "degrees": 206,
+   "degrees": 207,
    "type": "estadual",
    "ranking": 606
  },
@@ -864,7 +864,7 @@ pessoas = {
    "size": 37,
    "member": "não",
    "origin-degrees": 22,
-   "degrees": 206,
+   "degrees": 208,
    "type": "estadual",
    "ranking": 344
  },
@@ -878,7 +878,7 @@ pessoas = {
    "size": 3,
    "member": "não",
    "origin-degrees": 23,
-   "degrees": 208,
+   "degrees": 209,
    "type": "estadual",
    "ranking": 373
  },
@@ -906,7 +906,7 @@ pessoas = {
    "size": 7,
    "member": "não",
    "origin-degrees": 25,
-   "degrees": 210,
+   "degrees": 211,
    "type": "estadual",
    "ranking": 439
  },
@@ -934,7 +934,7 @@ pessoas = {
    "size": 3,
    "member": "não",
    "origin-degrees": 26,
-   "degrees": 211,
+   "degrees": 212,
    "type": "estadual",
    "ranking": 250
  },
@@ -976,7 +976,7 @@ pessoas = {
    "size": 12,
    "member": "não",
    "origin-degrees": 28,
-   "degrees": 214,
+   "degrees": 215,
    "type": "estadual",
    "ranking": 300
  },
@@ -990,7 +990,7 @@ pessoas = {
    "size": 3,
    "member": "não",
    "origin-degrees": 29,
-   "degrees": 215,
+   "degrees": 216,
    "type": "estadual",
    "ranking": 408
  },
@@ -1004,7 +1004,7 @@ pessoas = {
    "size": 11,
    "member": "não",
    "origin-degrees": 30,
-   "degrees": 216,
+   "degrees": 217,
    "type": "estadual",
    "ranking": 550
  },
@@ -1074,7 +1074,7 @@ pessoas = {
    "size": 4,
    "member": "não",
    "origin-degrees": 35,
-   "degrees": 241,
+   "degrees": 242,
    "type": "estadual",
    "ranking": 671
  },
@@ -1088,7 +1088,7 @@ pessoas = {
    "size": 10,
    "member": "não",
    "origin-degrees": 35,
-   "degrees": 241,
+   "degrees": 243,
    "type": "estadual",
    "ranking": 490
  },
@@ -1102,7 +1102,7 @@ pessoas = {
    "size": 0,
    "member": "não",
    "origin-degrees": 37,
-   "degrees": 242,
+   "degrees": 244,
    "type": "estadual",
    "ranking": 349
  },
@@ -1116,7 +1116,7 @@ pessoas = {
    "size": 0,
    "member": "não",
    "origin-degrees": 38,
-   "degrees": 243,
+   "degrees": 245,
    "type": "estadual",
    "ranking": 297
  },
@@ -1186,7 +1186,7 @@ pessoas = {
    "size": 0,
    "member": "não",
    "origin-degrees": 46,
-   "degrees": 258,
+   "degrees": 259,
    "type": "estadual",
    "ranking": 555
  },
@@ -1200,7 +1200,7 @@ pessoas = {
    "size": 10,
    "member": "sim",
    "origin-degrees": 49,
-   "degrees": 259,
+   "degrees": 260,
    "type": "estadual",
    "ranking": 1021
  },
@@ -1228,7 +1228,7 @@ pessoas = {
    "size": 3,
    "member": "não",
    "origin-degrees": 53,
-   "degrees": 267,
+   "degrees": 268,
    "type": "estadual",
    "ranking": 754
  },
@@ -1242,7 +1242,7 @@ pessoas = {
    "size": 12,
    "member": "sim",
    "origin-degrees": 57,
-   "degrees": 268,
+   "degrees": 269,
    "type": "estadual",
    "ranking": 776
  },
@@ -1284,7 +1284,7 @@ pessoas = {
    "size": 9,
    "member": "não",
    "origin-degrees": 69,
-   "degrees": 271,
+   "degrees": 272,
    "type": "estadual",
    "ranking": 823
  },
@@ -1312,7 +1312,7 @@ pessoas = {
    "size": 9,
    "member": "não",
    "origin-degrees": 73,
-   "degrees": 275,
+   "degrees": 276,
    "type": "estadual",
    "ranking": 392
  },
@@ -1382,7 +1382,7 @@ pessoas = {
    "size": 19,
    "member": "não",
    "origin-degrees": 120,
-   "degrees": 290,
+   "degrees": 291,
    "type": "estadual",
    "ranking": 902
  },

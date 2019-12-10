@@ -50,9 +50,9 @@ arrayEstadual.forEach((el, index) => {
     var um = document.getElementById('estadual-'+el.id);
     var degrees = el.degrees; // puxar da tabela
     var num = (degrees+10); // degrees * 2.15 - trocar o 100 por degrees
-    var max_angle = Math.round(num); // posição final da bolinha
-    var cos = Math.cos(num/180*Math.PI);
-    var sen = Math.sin(num/180*Math.PI);
+    var max_angle = num; // posição final da bolinha
+    var cos = Math.cos(max_angle/180*Math.PI);
+    var sen = Math.sin(max_angle/180*Math.PI);
     um.setAttribute("cx", 450.5 + (sen * 308.611));
     um.setAttribute("cy", 368.5 - (cos * 308.611));
 });
