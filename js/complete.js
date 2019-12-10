@@ -3,7 +3,7 @@ pessoas = {
    {
    "id": 4,
    "name": "Sandra dos Santos Padula",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -17,7 +17,7 @@ pessoas = {
  {
    "id": 7,
    "name": "Marisilvia Donadelli",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -31,7 +31,7 @@ pessoas = {
  {
    "id": 8,
    "name": "Eliza Melo da Costa",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "parda",
    "state": "RJ",
    "region": "Sudeste",
@@ -45,7 +45,7 @@ pessoas = {
  {
    "id": 9,
    "name": "Analu Verçosa Custódio",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -59,7 +59,7 @@ pessoas = {
  {
    "id": 10,
    "name": "Emi Marcia Takagui",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -73,7 +73,7 @@ pessoas = {
  {
    "id": 13,
    "name": "Sheila Mara Silva do Amaral",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -87,7 +87,7 @@ pessoas = {
  {
    "id": 18,
    "name": "Debora Terezia Balogh",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -101,7 +101,7 @@ pessoas = {
  {
    "id": 25,
    "name": "Cleide Mara Faria Soares",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "SE",
    "region": "Nordeste",
@@ -115,7 +115,7 @@ pessoas = {
  {
    "id": 56,
    "name": "Suzana Pereira Nunes",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "Thuwal",
    "region": "Arabia Saudita",
@@ -129,7 +129,7 @@ pessoas = {
  {
    "id": 62,
    "name": "Linda Viola Ehlin Caldas",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -143,7 +143,7 @@ pessoas = {
  {
    "id": 77,
    "name": "Ester Cerdeira Sabino",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "parda",
    "state": "SP",
    "region": "Sudeste",
@@ -157,7 +157,7 @@ pessoas = {
  {
    "id": 82,
    "name": "Isabela Judith Martins Bensenor",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -171,7 +171,7 @@ pessoas = {
  {
    "id": 83,
    "name": "Marina Nielsen",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -185,7 +185,7 @@ pessoas = {
  {
    "id": 96,
    "name": "Deborah Carvalho Malta",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "MG",
    "region": "Sudeste",
@@ -199,7 +199,7 @@ pessoas = {
  {
    "id": 97,
    "name": "Marcia Laudelina Arruda Temperini",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -213,7 +213,7 @@ pessoas = {
  {
    "id": 99,
    "name": "Judith Pessoa de Andrade Feitosa",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "CE",
    "region": "Nordeste",
@@ -227,7 +227,7 @@ pessoas = {
  {
    "id": 104,
    "name": "Elisabete Frollini",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -241,7 +241,7 @@ pessoas = {
  {
    "id": 119,
    "name": "Marisa Helena Gennari de Medeiros",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -255,7 +255,7 @@ pessoas = {
  {
    "id": 121,
    "name": "Maria do Carmo Rangel Santos Varela",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sul",
@@ -269,7 +269,7 @@ pessoas = {
  {
    "id": 122,
    "name": "Eliana Navarro dos Santos Muccillo",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -283,7 +283,7 @@ pessoas = {
  {
    "id": 148,
    "name": "Zuleica Bruno Fortes",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -297,7 +297,7 @@ pessoas = {
  {
    "id": 151,
    "name": "Leticia Veras Costa Lotufo",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -311,7 +311,7 @@ pessoas = {
  {
    "id": 153,
    "name": "Rosana Aparecida Baeninger",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -325,7 +325,7 @@ pessoas = {
  {
    "id": 154,
    "name": "Dulce Maria de Araújo Melo",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "parda",
    "state": "RN",
    "region": "Nordeste",
@@ -339,7 +339,7 @@ pessoas = {
  {
    "id": 190,
    "name": "Denise Vilarinho Tambourgi",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -353,7 +353,7 @@ pessoas = {
  {
    "id": 191,
    "name": "Sandra Roberta Gouvea Ferreira Vivolo",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "parda",
    "state": "SP",
    "region": "Sudeste",
@@ -367,7 +367,7 @@ pessoas = {
  {
    "id": 196,
    "name": "Andrea Simone Stucchi de Camargo Alvarez Bernardez",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -381,7 +381,7 @@ pessoas = {
  {
    "id": 211,
    "name": "Suely Kazue Nagahashi Marie",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -395,7 +395,7 @@ pessoas = {
  {
    "id": 213,
    "name": "Maria Fatima das Gracas Fernandes da Silva",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -409,7 +409,7 @@ pessoas = {
  {
    "id": 214,
    "name": "Anita Jocelyne Marsaioli",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -423,7 +423,7 @@ pessoas = {
  {
    "id": 215,
    "name": "Larissa Liz Odreski Ramina",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "PR",
    "region": "Sul",
@@ -437,7 +437,7 @@ pessoas = {
  {
    "id": 216,
    "name": "Eliana Mendes de Souza Teixeira Roque",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "parda",
    "state": "SP",
    "region": "Sudeste",
@@ -451,7 +451,7 @@ pessoas = {
  {
    "id": 219,
    "name": "Maria Helena Andrade Santana",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -465,7 +465,7 @@ pessoas = {
  {
    "id": 248,
    "name": "Denise Freitas Siqueira Petri",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -479,7 +479,7 @@ pessoas = {
  {
    "id": 250,
    "name": "Luciana Reyes Pires Kassab",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "parda",
    "state": "SP",
    "region": "Sudeste",
@@ -493,7 +493,7 @@ pessoas = {
  {
    "id": 5,
    "name": "Raquel de Lima Camargo Giordano",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -507,7 +507,7 @@ pessoas = {
  {
    "id": 19,
    "name": "Mirabel Cerqueira Rezende",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -521,7 +521,7 @@ pessoas = {
  {
    "id": 27,
    "name": "Fátima Ferreira-Briza",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "Salzburg",
    "region": "Exterior",
@@ -535,7 +535,7 @@ pessoas = {
  {
    "id": 32,
    "name": "Sueli Mara Soares Pinto Ferreira",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -549,7 +549,7 @@ pessoas = {
  {
    "id": 55,
    "name": "Maria Bernadete Amâncio Varesche",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -563,7 +563,7 @@ pessoas = {
  {
    "id": 111,
    "name": "Rosely Sichieri",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -577,7 +577,7 @@ pessoas = {
  {
    "id": 114,
    "name": "Sandra Helena Pulcinelli",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -591,7 +591,7 @@ pessoas = {
  {
    "id": 115,
    "name": "Silene de Moraes Freire",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "parda",
    "state": "RJ",
    "region": "Sudeste",
@@ -605,7 +605,7 @@ pessoas = {
  {
    "id": 120,
    "name": "Neyde Yukie Murakami Iha",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -619,7 +619,7 @@ pessoas = {
  {
    "id": 169,
    "name": "Shirley Schreier",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -633,7 +633,7 @@ pessoas = {
  {
    "id": 172,
    "name": "Luisa Lina Villa",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -647,7 +647,7 @@ pessoas = {
  {
    "id": 174,
    "name": "Vanda Jorgetti",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -661,7 +661,7 @@ pessoas = {
  {
    "id": 179,
    "name": "Alessandra Reis",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "PR",
    "region": "Sul",
@@ -675,7 +675,7 @@ pessoas = {
  {
    "id": 183,
    "name": "Giselda Maria Fernandes Novaes Hironaka",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -689,7 +689,7 @@ pessoas = {
  {
    "id": 189,
    "name": "Maria Immacolata Vassallo de Lopes",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -703,7 +703,7 @@ pessoas = {
  {
    "id": 217,
    "name": "Regina Guenka Palma Dibb",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "parda",
    "state": "SP",
    "region": "Sudeste",
@@ -717,7 +717,7 @@ pessoas = {
  {
    "id": 218,
    "name": "Carla Aparecida Arena Ventura",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -731,7 +731,7 @@ pessoas = {
  {
    "id": 222,
    "name": "Maria Sylvia Macchione Saes",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -745,7 +745,7 @@ pessoas = {
  {
    "id": 236,
    "name": "Teresa Dib Zambon Atvars",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "parda",
    "state": "SP",
    "region": "Sudeste",
@@ -759,7 +759,7 @@ pessoas = {
  {
    "id": 6,
    "name": "Maria do Rosario Dias de Oliveira Latorre",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "parda",
    "state": "SP",
    "region": "Sudeste",
@@ -773,7 +773,7 @@ pessoas = {
  {
    "id": 11,
    "name": "Cicilia Maria Krohling Peruzzo",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -787,7 +787,7 @@ pessoas = {
  {
    "id": 12,
    "name": "Ducinei Garcia",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -801,7 +801,7 @@ pessoas = {
  {
    "id": 15,
    "name": "Ohara Augusto",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -815,7 +815,7 @@ pessoas = {
  {
    "id": 17,
    "name": "Sandra Helena Poliselli Farsky",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -829,7 +829,7 @@ pessoas = {
  {
    "id": 21,
    "name": "Vera Luiza Capelozzi",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -843,7 +843,7 @@ pessoas = {
  {
    "id": 24,
    "name": "Maysa Furlan",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -857,7 +857,7 @@ pessoas = {
  {
    "id": 30,
    "name": "Cheila Gonçalves Mothé",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "preta",
    "state": "RJ",
    "region": "Sudeste",
@@ -871,7 +871,7 @@ pessoas = {
  {
    "id": 33,
    "name": "Marcia Walquiria de Carvalho Dezotti",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -885,7 +885,7 @@ pessoas = {
  {
    "id": 40,
    "name": "Maria Valnice Boldrin",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -899,7 +899,7 @@ pessoas = {
  {
    "id": 43,
    "name": "Gisella Maria Zanin",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "PR",
    "region": "Sul",
@@ -913,7 +913,7 @@ pessoas = {
  {
    "id": 53,
    "name": "Angela Maggio da Fonseca",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "parda",
    "state": "SP",
    "region": "Sudeste",
@@ -927,7 +927,7 @@ pessoas = {
  {
    "id": 54,
    "name": "Plácida Leopoldina Ventura Amorim da Costa Santos",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -941,7 +941,7 @@ pessoas = {
  {
    "id": 58,
    "name": "Silvana Aparecida Borsetti Gregorio Vidotti",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -955,7 +955,7 @@ pessoas = {
  {
    "id": 61,
    "name": "Lúcia Helena Faccioli",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -969,7 +969,7 @@ pessoas = {
  {
    "id": 64,
    "name": "Marta Lígia Pomim Valentim",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -983,7 +983,7 @@ pessoas = {
  {
    "id": 67,
    "name": "Martha Simões Ribeiro",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "parda",
    "state": "SP",
    "region": "Sudeste",
@@ -997,7 +997,7 @@ pessoas = {
  {
    "id": 73,
    "name": "Denise Maria Zezell",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1011,7 +1011,7 @@ pessoas = {
  {
    "id": 78,
    "name": "Silvana Maria Quintana",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1025,7 +1025,7 @@ pessoas = {
  {
    "id": 85,
    "name": "Maria Claudia Costa Irigoyen",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1039,7 +1039,7 @@ pessoas = {
  {
    "id": 88,
    "name": "Cláudia Souza Passador",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1053,7 +1053,7 @@ pessoas = {
  {
    "id": 108,
    "name": "Mayana Zatz",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1067,7 +1067,7 @@ pessoas = {
  {
    "id": 109,
    "name": "Joyce Maria Annichino-Bizzacchi",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1081,7 +1081,7 @@ pessoas = {
  {
    "id": 112,
    "name": "Marisa Masumi Beppu",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1095,7 +1095,7 @@ pessoas = {
  {
    "id": 123,
    "name": "Maria do Perpétuo Socorro Rodrigues Chaves",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "parda",
    "state": "AM",
    "region": "Norte",
@@ -1109,7 +1109,7 @@ pessoas = {
  {
    "id": 128,
    "name": "Tania Casado",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1123,7 +1123,7 @@ pessoas = {
  {
    "id": 149,
    "name": "Leilah Santiago Bufrem",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "PE",
    "region": "Nordeste",
@@ -1137,7 +1137,7 @@ pessoas = {
  {
    "id": 163,
    "name": "Patricia Chakur Brum",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1151,7 +1151,7 @@ pessoas = {
  {
    "id": 175,
    "name": "Eloisa Silva Dutra de Oliveira Bonfá",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1165,7 +1165,7 @@ pessoas = {
  {
    "id": 187,
    "name": "Maria Isabel Toulson Davisson Correia",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "MG",
    "region": "Sudeste",
@@ -1179,7 +1179,7 @@ pessoas = {
  {
    "id": 194,
    "name": "Gláucia Maria Bovi Ambrosano",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1193,7 +1193,7 @@ pessoas = {
  {
    "id": 204,
    "name": "Berenice Bilharinho de Mendonça",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1207,7 +1207,7 @@ pessoas = {
  {
    "id": 205,
    "name": "Cláudia Lúcia de Moraes Forjaz",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1221,7 +1221,7 @@ pessoas = {
  {
    "id": 208,
    "name": "Elaine Aparecida Del Bel Belluz Guimarães",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1235,7 +1235,7 @@ pessoas = {
  {
    "id": 224,
    "name": "Rita de Cassia Aleixo Tostes Passaglia",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1249,7 +1249,7 @@ pessoas = {
  {
    "id": 227,
    "name": "Telma Maria Braga Costa",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1263,7 +1263,7 @@ pessoas = {
  {
    "id": 237,
    "name": "Suely Vilela",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1277,7 +1277,7 @@ pessoas = {
  {
    "id": 243,
    "name": "Marília Afonso Rabelo Buzalaf",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1291,7 +1291,7 @@ pessoas = {
  {
    "id": 245,
    "name": "Rosa Maria Rodrigues Pereira",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1305,7 +1305,7 @@ pessoas = {
  {
    "id": 246,
    "name": "Mariângela Spotti Lopes Fujita",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1319,7 +1319,7 @@ pessoas = {
  {
    "id": 101,
    "name": "Maria Aparecida Gouvêa",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1333,7 +1333,7 @@ pessoas = {
  {
    "id": 156,
    "name": "Marcia Martins Marques",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1347,7 +1347,7 @@ pessoas = {
  {
    "id": 167,
    "name": "Janete Maria Cerutti",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1361,7 +1361,7 @@ pessoas = {
  {
    "id": 180,
    "name": "Josimeri Hebling Costa",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1375,7 +1375,7 @@ pessoas = {
  {
    "id": 185,
    "name": "Angelita Habr-Gama",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1389,7 +1389,7 @@ pessoas = {
  {
    "id": 199,
    "name": "Amanda Guerra de Moraes Rego Sousa",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1403,7 +1403,7 @@ pessoas = {
  {
    "id": 26,
    "name": "Wanda Lucia Prado da Silva",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "na",
    "state": "RJ",
    "region": "Sudeste",
@@ -1417,7 +1417,7 @@ pessoas = {
  {
    "id": 28,
    "name": "Renata Zukanovich Funchal",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1431,7 +1431,7 @@ pessoas = {
  {
    "id": 29,
    "name": "Magdalena Malek",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -1445,7 +1445,7 @@ pessoas = {
  {
    "id": 34,
    "name": "Ana Paula Baptista de Carvalho",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "Lisboa",
    "region": "Portugal",
@@ -1459,7 +1459,7 @@ pessoas = {
  {
    "id": 37,
    "name": "Rosângela Angelin",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sul",
@@ -1473,7 +1473,7 @@ pessoas = {
  {
    "id": 65,
    "name": "Marcia Begalli",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -1487,7 +1487,7 @@ pessoas = {
  {
    "id": 66,
    "name": "Quezia Bezerra Cass",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1501,7 +1501,7 @@ pessoas = {
  {
    "id": 84,
    "name": "Sandra Regina Martini",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sul",
@@ -1515,7 +1515,7 @@ pessoas = {
  {
    "id": 105,
    "name": "Maria Clemencia Rosario Mora Herrera",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -1529,7 +1529,7 @@ pessoas = {
  {
    "id": 107,
    "name": "Gabrielle Bezerra Sales",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sul",
@@ -1543,7 +1543,7 @@ pessoas = {
  {
    "id": 124,
    "name": "Luana Cassandra Breitenbach Barroso Coelho",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "PE",
    "region": "Nordeste",
@@ -1557,7 +1557,7 @@ pessoas = {
  {
    "id": 129,
    "name": "Irina Nasteva",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -1571,7 +1571,7 @@ pessoas = {
  {
    "id": 130,
    "name": "Diana Cristina Silva de Azevedo",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "CE",
    "region": "Nordeste",
@@ -1585,7 +1585,7 @@ pessoas = {
  {
    "id": 155,
    "name": "Debora Peres Menezes",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "SC",
    "region": "Sul",
@@ -1599,7 +1599,7 @@ pessoas = {
  {
    "id": 157,
    "name": "Telma Teixeira Franco",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1613,7 +1613,7 @@ pessoas = {
  {
    "id": 164,
    "name": "Sílvia Stanisçuaski Guterres",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sudeste",
@@ -1627,7 +1627,7 @@ pessoas = {
  {
    "id": 166,
    "name": "Maria Beatriz de Leone Gay Ducati",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sul",
@@ -1641,7 +1641,7 @@ pessoas = {
  {
    "id": 220,
    "name": "Maria Cláudia da Silva Antunes de Souza",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "SC",
    "region": "Sul",
@@ -1655,7 +1655,7 @@ pessoas = {
  {
    "id": 226,
    "name": "Rosangela Bergamasco",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "PR",
    "region": "Sul",
@@ -1669,7 +1669,7 @@ pessoas = {
  {
    "id": 63,
    "name": "Leonor Gusmão",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -1683,7 +1683,7 @@ pessoas = {
  {
    "id": 70,
    "name": "Neusa Hamada",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "parda",
    "state": "AM",
    "region": "Norte",
@@ -1697,7 +1697,7 @@ pessoas = {
  {
    "id": 79,
    "name": "Marcia Caldas de Castro",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "Boston",
    "region": "Exterior",
@@ -1711,7 +1711,7 @@ pessoas = {
  {
    "id": 94,
    "name": "Maria Regina Wolf Maciel",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1725,7 +1725,7 @@ pessoas = {
  {
    "id": 132,
    "name": "Erna Geessien Kroon",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "MG",
    "region": "Sudeste",
@@ -1739,7 +1739,7 @@ pessoas = {
  {
    "id": 133,
    "name": "Ruth Herta Goldschmidt Aliaga Kiminami",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1753,7 +1753,7 @@ pessoas = {
  {
    "id": 160,
    "name": "Maria Inês Schmidt",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sul",
@@ -1767,7 +1767,7 @@ pessoas = {
  {
    "id": 193,
    "name": "Teresa Bernarda Ludermir",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "PE",
    "region": "Nordeste",
@@ -1781,7 +1781,7 @@ pessoas = {
  {
    "id": 225,
    "name": "Elza Salvatori Berquó",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1795,7 +1795,7 @@ pessoas = {
  {
    "id": 241,
    "name": "Marlei Pozzebon",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1809,7 +1809,7 @@ pessoas = {
  {
    "id": 1,
    "name": "Marinete Marins Povoa",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "PA",
    "region": "Norte",
@@ -1823,7 +1823,7 @@ pessoas = {
  {
    "id": 2,
    "name": "Susana Ines Cordoba de Torresi",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1837,7 +1837,7 @@ pessoas = {
  {
    "id": 3,
    "name": "Andrea Moura Bernardes",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sul",
@@ -1851,7 +1851,7 @@ pessoas = {
  {
    "id": 14,
    "name": "Angela Maria Cavalcanti da Rocha",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -1865,7 +1865,7 @@ pessoas = {
  {
    "id": 23,
    "name": "Adriana Raffin Pohlmann",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sudeste",
@@ -1879,7 +1879,7 @@ pessoas = {
  {
    "id": 45,
    "name": "Mariza de Andrade",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "Rochester",
    "region": "Exterior",
@@ -1893,7 +1893,7 @@ pessoas = {
  {
    "id": 46,
    "name": "Virginia Sampaio Teixeira Ciminelli",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "MG",
    "region": "Sudeste",
@@ -1907,7 +1907,7 @@ pessoas = {
  {
    "id": 59,
    "name": "Suzana Braga Rodrigues",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "MG",
    "region": "Sudeste",
@@ -1921,7 +1921,7 @@ pessoas = {
  {
    "id": 116,
    "name": "Irene de Lourdes Noronha",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1935,7 +1935,7 @@ pessoas = {
  {
    "id": 125,
    "name": "Beatriz Valadares Cendón",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "MG",
    "region": "Sudeste",
@@ -1949,7 +1949,7 @@ pessoas = {
  {
    "id": 131,
    "name": "Irenilza de Alencar Naas",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1963,7 +1963,7 @@ pessoas = {
  {
    "id": 150,
    "name": "Leda dos Reis Castilho",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -1977,7 +1977,7 @@ pessoas = {
  {
    "id": 186,
    "name": "Maria Auxiliadora Coelho Kaplan",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -1991,7 +1991,7 @@ pessoas = {
  {
    "id": 201,
    "name": "Patrícia Krieger Grossi",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sul",
@@ -2005,7 +2005,7 @@ pessoas = {
  {
    "id": 92,
    "name": "Sofia Maria Carrato Diniz",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "MG",
    "region": "Sudeste",
@@ -2019,7 +2019,7 @@ pessoas = {
  {
    "id": 177,
    "name": "Brenda Paula Figueiredo de Almeida Gomes",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -2033,7 +2033,7 @@ pessoas = {
  {
    "id": 39,
    "name": "Miriam Mendes Gandelman",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -2047,7 +2047,7 @@ pessoas = {
  {
    "id": 41,
    "name": "Patricia Rebello Teles",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -2061,7 +2061,7 @@ pessoas = {
  {
    "id": 42,
    "name": "Jussara Marques de Miranda",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -2075,7 +2075,7 @@ pessoas = {
  {
    "id": 44,
    "name": "Yara do Amaral Coutinho",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "na",
    "state": "RJ",
    "region": "Sudeste",
@@ -2089,7 +2089,7 @@ pessoas = {
  {
    "id": 47,
    "name": "Flavia de Almeida Dias",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "Edimburgo",
    "region": "Reino Unido",
@@ -2103,7 +2103,7 @@ pessoas = {
  {
    "id": 49,
    "name": "Maria Aline Barros do Vale",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "parda",
    "state": "MG",
    "region": "Sudeste",
@@ -2117,7 +2117,7 @@ pessoas = {
  {
    "id": 51,
    "name": "Raquel Santos Mauler",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sul",
@@ -2131,7 +2131,7 @@ pessoas = {
  {
    "id": 68,
    "name": "Vera Maria Melchiors Morsch",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sul",
@@ -2145,7 +2145,7 @@ pessoas = {
  {
    "id": 71,
    "name": "Maria Aparecida Juliano",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -2159,7 +2159,7 @@ pessoas = {
  {
    "id": 72,
    "name": "Sandra Filippa Amato",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -2173,7 +2173,7 @@ pessoas = {
  {
    "id": 75,
    "name": "Danielle Martins Tostes",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "preta",
    "state": "RJ",
    "region": "Sudeste",
@@ -2187,7 +2187,7 @@ pessoas = {
  {
    "id": 86,
    "name": "Ana Tereza Ribeiro de Vasconcelos",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -2201,7 +2201,7 @@ pessoas = {
  {
    "id": 87,
    "name": "Erica Ribeiro Polycarpo Macedo",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -2215,7 +2215,7 @@ pessoas = {
  {
    "id": 89,
    "name": "Inez Staciarini Batista",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -2229,7 +2229,7 @@ pessoas = {
  {
    "id": 90,
    "name": "Elisa Maria Baggio Saitovitch",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -2243,7 +2243,7 @@ pessoas = {
  {
    "id": 93,
    "name": "Danielle Magalhães Moraes",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -2257,7 +2257,7 @@ pessoas = {
  {
    "id": 110,
    "name": "Claudia Sayer",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "SC",
    "region": "Sul",
@@ -2271,7 +2271,7 @@ pessoas = {
  {
    "id": 134,
    "name": "Cristina Wayne Nogueira",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "parda",
    "state": "RS",
    "region": "Sul",
@@ -2285,7 +2285,7 @@ pessoas = {
  {
    "id": 135,
    "name": "Vera Lucia Szejnfeld",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -2299,7 +2299,7 @@ pessoas = {
  {
    "id": 138,
    "name": "Carmen Lucia Lodi Maidantchik",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -2313,7 +2313,7 @@ pessoas = {
  {
    "id": 139,
    "name": "Carla Gobel Burlamaqui de Mello",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -2327,7 +2327,7 @@ pessoas = {
  {
    "id": 142,
    "name": "Bluma Guenther Soares",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "parda",
    "state": "RJ",
    "region": "Sudeste",
@@ -2341,7 +2341,7 @@ pessoas = {
  {
    "id": 145,
    "name": "Maria Aparecida Zaghete Bertochi",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -2355,7 +2355,7 @@ pessoas = {
  {
    "id": 147,
    "name": "Alexandra Ancelmo Piscitelli Mansur",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "MG",
    "region": "Sudeste",
@@ -2369,7 +2369,7 @@ pessoas = {
  {
    "id": 162,
    "name": "Ana Paula da Luz",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -2383,7 +2383,7 @@ pessoas = {
  {
    "id": 170,
    "name": "Ana Cristina Gales",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -2397,7 +2397,7 @@ pessoas = {
  {
    "id": 171,
    "name": "Marcia Cristina Bernardes Barbosa",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sul",
@@ -2411,7 +2411,7 @@ pessoas = {
  {
    "id": 176,
    "name": "Fernanda Margarida Barbosa Coutinho",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -2425,7 +2425,7 @@ pessoas = {
  {
    "id": 181,
    "name": "Luciana Rocha Barros Gonçalves",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "CE",
    "region": "Nordeste",
@@ -2439,7 +2439,7 @@ pessoas = {
  {
    "id": 198,
    "name": "Aldina Maria Prado Barral",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "BA",
    "region": "Nordeste",
@@ -2453,7 +2453,7 @@ pessoas = {
  {
    "id": 200,
    "name": "Maria Rosa Chitolina",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sul",
@@ -2467,7 +2467,7 @@ pessoas = {
  {
    "id": 206,
    "name": "Maria das Dores Saraiva de Loreto",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "MG",
    "region": "Sudeste",
@@ -2481,7 +2481,7 @@ pessoas = {
  {
    "id": 210,
    "name": "Maria Ines Basso Bernardi",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -2495,7 +2495,7 @@ pessoas = {
  {
    "id": 221,
    "name": "Denise Petrucci Gigante",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sul",
@@ -2509,7 +2509,7 @@ pessoas = {
  {
    "id": 223,
    "name": "Beatriz Gilda Jegerhorn Grinsztejn",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -2523,7 +2523,7 @@ pessoas = {
  {
    "id": 228,
    "name": "Maria Martha Campos",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sul",
@@ -2537,7 +2537,7 @@ pessoas = {
  {
    "id": 229,
    "name": "Claudia do Ó Pessoa",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "CE",
    "region": "Nordeste",
@@ -2551,7 +2551,7 @@ pessoas = {
  {
    "id": 231,
    "name": "Patricia Torres Bozza Viola",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -2565,7 +2565,7 @@ pessoas = {
  {
    "id": 232,
    "name": "Marilia Sa Carvalho",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -2579,7 +2579,7 @@ pessoas = {
  {
    "id": 234,
    "name": "Thaisa Storchi Bergmann",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sul",
@@ -2593,7 +2593,7 @@ pessoas = {
  {
    "id": 239,
    "name": "Iêda Maria Garcia dos Santos",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "PB",
    "region": "Nordeste",
@@ -2607,7 +2607,7 @@ pessoas = {
  {
    "id": 240,
    "name": "Fernanda Roberta Marciano",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "PI",
    "region": "Nordeste",
@@ -2621,7 +2621,7 @@ pessoas = {
  {
    "id": 20,
    "name": "Carla Denise Bonan",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sul",
@@ -2635,7 +2635,7 @@ pessoas = {
  {
    "id": 22,
    "name": "Iná da Silva dos Santos",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sul",
@@ -2649,7 +2649,7 @@ pessoas = {
  {
    "id": 103,
    "name": "Sergiane Caldas Barbosa",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sul",
@@ -2663,7 +2663,7 @@ pessoas = {
  {
    "id": 136,
    "name": "Ana Maria Oliveira Battastini",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sul",
@@ -2677,7 +2677,7 @@ pessoas = {
  {
    "id": 140,
    "name": "Milena Botelho Pereira Soares",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "BA",
    "region": "Nordeste",
@@ -2691,7 +2691,7 @@ pessoas = {
  {
    "id": 141,
    "name": "Euzenir Nunes Sarno",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "parda",
    "state": "RJ",
    "region": "Sudeste",
@@ -2705,7 +2705,7 @@ pessoas = {
  {
    "id": 143,
    "name": "Renata Maria Abrantes Baracho Porto",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "MG",
    "region": "Sudeste",
@@ -2719,7 +2719,7 @@ pessoas = {
  {
    "id": 144,
    "name": "Mariana de Mattos Vieira Mello Souza",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -2733,7 +2733,7 @@ pessoas = {
  {
    "id": 165,
    "name": "Ana Lúcia Severo Rodrigues",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "parda",
    "state": "SC",
    "region": "Sul",
@@ -2747,7 +2747,7 @@ pessoas = {
  {
    "id": 173,
    "name": "Sandra Cristina Pereira Costa Fuchs",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sul",
@@ -2761,7 +2761,7 @@ pessoas = {
  {
    "id": 203,
    "name": "Sheila Knupp Feitosa de Oliveira",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -2775,7 +2775,7 @@ pessoas = {
  {
    "id": 244,
    "name": "Maria Fernanda Furtado de Lima e Costa",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "MG",
    "region": "Sudeste",
@@ -2789,7 +2789,7 @@ pessoas = {
  {
    "id": 16,
    "name": "Regina de Fátima Peralta Muniz Moreira",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "SC",
    "region": "Sul",
@@ -2803,7 +2803,7 @@ pessoas = {
  {
    "id": 31,
    "name": "Betina Treiger Grupenmacher",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "PR",
    "region": "Sul",
@@ -2817,7 +2817,7 @@ pessoas = {
  {
    "id": 35,
    "name": "Helena Carla Castro",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "preta",
    "state": "RJ",
    "region": "Sudeste",
@@ -2831,7 +2831,7 @@ pessoas = {
  {
    "id": 36,
    "name": "Célia Maria de Almeida Soares",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "parda",
    "state": "GO",
    "region": "Centro-Oeste",
@@ -2845,7 +2845,7 @@ pessoas = {
  {
    "id": 38,
    "name": "Maria Ines Bruno Tavares",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -2859,7 +2859,7 @@ pessoas = {
  {
    "id": 57,
    "name": "Ana Valéria Machado Mendonça",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "DF",
    "region": "Centro-Oeste",
@@ -2873,7 +2873,7 @@ pessoas = {
  {
    "id": 60,
    "name": "Angela Terezinha de Souza Wyse",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sul",
@@ -2887,7 +2887,7 @@ pessoas = {
  {
    "id": 69,
    "name": "Juliana da Silva",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sul",
@@ -2901,7 +2901,7 @@ pessoas = {
  {
    "id": 74,
    "name": "Ana Maria Baptista Menezes",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sul",
@@ -2915,7 +2915,7 @@ pessoas = {
  {
    "id": 76,
    "name": "Marcia Carla Pereira Ribeiro",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "PR",
    "region": "Sul",
@@ -2929,7 +2929,7 @@ pessoas = {
  {
    "id": 80,
    "name": "Cristina Maria Garcia de Lima Parada",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "parda",
    "state": "SP",
    "region": "Sudeste",
@@ -2943,7 +2943,7 @@ pessoas = {
  {
    "id": 81,
    "name": "Luciene Barbosa de Sousa",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -2957,7 +2957,7 @@ pessoas = {
  {
    "id": 91,
    "name": "Gerly Anne de Castro Brito",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "CE",
    "region": "Nordeste",
@@ -2971,7 +2971,7 @@ pessoas = {
  {
    "id": 95,
    "name": "Denise Maria Guimarães Freire",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -2985,7 +2985,7 @@ pessoas = {
  {
    "id": 98,
    "name": "Marilia Oliveira Fonseca Goulart",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "AL",
    "region": "Nordeste",
@@ -2999,7 +2999,7 @@ pessoas = {
  {
    "id": 100,
    "name": "Selene Maria de Arruda Guelli Ulson de Souza",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "SC",
    "region": "Sul",
@@ -3013,7 +3013,7 @@ pessoas = {
  {
    "id": 102,
    "name": "Ligia Damasceno Ferreira Marczak",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sul",
@@ -3027,7 +3027,7 @@ pessoas = {
  {
    "id": 113,
    "name": "Celia Ribeiro Zaher",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -3041,7 +3041,7 @@ pessoas = {
  {
    "id": 118,
    "name": "Ida Vanessa Doederlein Schwartz",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sul",
@@ -3055,7 +3055,7 @@ pessoas = {
  {
    "id": 126,
    "name": "Maria Cecilia de Souza Minayo",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -3069,7 +3069,7 @@ pessoas = {
  {
    "id": 127,
    "name": "Vanessa de Freitas Cunha Lins",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "MG",
    "region": "Sudeste",
@@ -3083,7 +3083,7 @@ pessoas = {
  {
    "id": 158,
    "name": "Maria Cristina de Oliveira Izar",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -3097,7 +3097,7 @@ pessoas = {
  {
    "id": 195,
    "name": "Maria das Graças Targino",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "PI",
    "region": "Nordeste",
@@ -3111,7 +3111,7 @@ pessoas = {
  {
    "id": 197,
    "name": "Helena Bonciani Nader",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -3125,7 +3125,7 @@ pessoas = {
  {
    "id": 202,
    "name": "Luciana Rodrigues Silva",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "BA",
    "region": "Nordeste",
@@ -3139,7 +3139,7 @@ pessoas = {
  {
    "id": 209,
    "name": "Patrícia Cristina Lisbôa da Silva",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -3153,7 +3153,7 @@ pessoas = {
  {
    "id": 230,
    "name": "Patricia Machado Rodrigues e Silva Martins",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -3167,7 +3167,7 @@ pessoas = {
  {
    "id": 233,
    "name": "Monica Levy Andersen",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -3181,7 +3181,7 @@ pessoas = {
  {
    "id": 242,
    "name": "Ruth Guinsburg",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -3195,7 +3195,7 @@ pessoas = {
  {
    "id": 247,
    "name": "Laura Sterian Ward",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -3209,7 +3209,7 @@ pessoas = {
  {
    "id": 159,
    "name": "Kátia De Angelis",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -3223,7 +3223,7 @@ pessoas = {
  {
    "id": 161,
    "name": "Maria Elizabeth Guimarães Teixeira Rocha",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "DF",
    "region": "Centro-Oeste",
@@ -3237,7 +3237,7 @@ pessoas = {
  {
    "id": 178,
    "name": "Dulciene Maria de Magalhães Queiroz",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "MG",
    "region": "Sudeste",
@@ -3251,7 +3251,7 @@ pessoas = {
  {
    "id": 188,
    "name": "Mara Suzana Behlau",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -3265,7 +3265,7 @@ pessoas = {
  {
    "id": 192,
    "name": "Patricia Rieken Macedo Rocco",
-   "color": "ciências biológicas",
+   "color": "rgba(224, 79, 46, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -3279,7 +3279,7 @@ pessoas = {
  {
    "id": 238,
    "name": "Lydia Masako Ferreira",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -3293,7 +3293,7 @@ pessoas = {
  {
    "id": 52,
    "name": "Maria Elena Pol",
-   "color": "ciências exatas e da terra",
+   "color": "rgba(245, 235, 53, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -3307,7 +3307,7 @@ pessoas = {
  {
    "id": 117,
    "name": "Salete Oro Boff",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sul",
@@ -3321,7 +3321,7 @@ pessoas = {
  {
    "id": 182,
    "name": "Silvana Maria Escorsim",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "PR",
    "region": "Sul",
@@ -3335,7 +3335,7 @@ pessoas = {
  {
    "id": 184,
    "name": "Maria Liduína de Oliveira e Silva",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "parda",
    "state": "SP",
    "region": "Sudeste",
@@ -3349,7 +3349,7 @@ pessoas = {
  {
    "id": 146,
    "name": "Helen Jamil Khoury",
-   "color": "engenharias",
+   "color": "rgba(215, 64, 255, 0.5)",
    "race": "branca",
    "state": "PE",
    "region": "Nordeste",
@@ -3363,7 +3363,7 @@ pessoas = {
  {
    "id": 168,
    "name": "Aldaiza Sposati",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -3377,7 +3377,7 @@ pessoas = {
  {
    "id": 212,
    "name": "Thaise Nara Graziottin Costa",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sul",
@@ -3391,7 +3391,7 @@ pessoas = {
  {
    "id": 249,
    "name": "Maria de Fátima Ribeiro",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "PR",
    "region": "Sul",
@@ -3405,7 +3405,7 @@ pessoas = {
  {
    "id": 48,
    "name": "Maria Beatriz Costa Abramides",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -3419,7 +3419,7 @@ pessoas = {
  {
    "id": 50,
    "name": "Maria Aparecida Moura",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "preta",
    "state": "MG",
    "region": "Sudeste",
@@ -3433,7 +3433,7 @@ pessoas = {
  {
    "id": 106,
    "name": "Mara Vidigal Darcanchy",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "PR",
    "region": "Sul",
@@ -3447,7 +3447,7 @@ pessoas = {
  {
    "id": 137,
    "name": "Maria Ines Souza Bravo",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -3461,7 +3461,7 @@ pessoas = {
  {
    "id": 207,
    "name": "Viviane Coelho de Sellos-Knoerr",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "PR",
    "region": "Sul",
@@ -3475,7 +3475,7 @@ pessoas = {
  {
    "id": 235,
    "name": "Vania Siciliano Aieta",
-   "color": "ciências sociais aplicadas",
+   "color": "rgba(0, 184, 104, 0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -3489,7 +3489,7 @@ pessoas = {
  {
    "id": 152,
    "name": "Patrícia Maria de Moraes Barros Fucs",
-   "color": "ciências da saúde",
+   "color": "rgba(38, 135, 252, 0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
