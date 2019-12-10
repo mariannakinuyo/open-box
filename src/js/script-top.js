@@ -28,95 +28,170 @@ var app = new Vue({
 
     computed: {
         compFederal() {
-            var vetor = [];
-            this.arrayFederal.forEach((e) => {
+            var filtroLateral = filtroMapa = [];
+            filtroMapa = this.arrayFederal.filter((e) => {
+                if (this.filter.sul && e.region == 'Sul') {
+                    return true;
+                }
+                if (this.filter.sudeste && e.region == 'Sudeste') {
+                    return true;
+                }
+                if (this.filter.nordeste && e.region == 'Nordeste') {
+                    return true;
+                }
+                if (this.filter.centro && e.region == 'Centro-Oeste') {
+                    return true;
+                }
+                if (this.filter.norte && e.region == 'Norte') {
+                    return true;
+                }
+                return false;
+            });
+            filtroLateral = filtroMapa.filter((e) => {
                 if (this.filter.biologicas && e.color == 'rgba(0, 184, 104, 0.5)') {
-                    vetor.push(e);
+                    return true;
                 }
                 if (this.filter.sociais && e.color == 'rgba(224, 79, 46, 0.5)') {
-                    vetor.push(e);
+                    return true;
                 }
                 if (this.filter.exatas && e.color == 'rgba(245, 235, 53, 0.5)') {
-                    vetor.push(e);
+                    return true;
                 }
                 if (this.filter.engenharias && e.color == 'rgba(215, 64, 255, 0.5)') {
-                    vetor.push(e);
+                    return true;
                 }
                 if (this.filter.saude && e.color == 'rgba(38, 135, 252, 0.5)') {
-                    vetor.push(e);
+                    return true;
                 }
+                return false;
             });
-            return vetor;
+            return filtroLateral;
         },
 
         compEstadual() {
-            var vetor = [];
-            this.arrayEstadual.forEach((e) => {
+            var filtroLateral = filtroMapa = [];
+            filtroMapa = this.arrayEstadual.filter((e) => {
+                if (this.filter.sul && e.region == 'Sul') {
+                    return true;
+                }
+                if (this.filter.sudeste && e.region == 'Sudeste') {
+                    return true;
+                }
+                if (this.filter.nordeste && e.region == 'Nordeste') {
+                    return true;
+                }
+                if (this.filter.centro && e.region == 'Centro-Oeste') {
+                    return true;
+                }
+                if (this.filter.norte && e.region == 'Norte') {
+                    return true;
+                }
+                return false;
+            });
+            filtroLateral = filtroMapa.filter((e) => {
                 if (this.filter.biologicas && e.color == 'rgba(0, 184, 104, 0.5)') {
-                    vetor.push(e);
+                    return true;
                 }
                 if (this.filter.sociais && e.color == 'rgba(224, 79, 46, 0.5)') {
-                    vetor.push(e);
+                    return true;
                 }
                 if (this.filter.exatas && e.color == 'rgba(245, 235, 53, 0.5)') {
-                    vetor.push(e);
+                    return true;
                 }
                 if (this.filter.engenharias && e.color == 'rgba(215, 64, 255, 0.5)') {
-                    vetor.push(e);
+                    return true;
                 }
                 if (this.filter.saude && e.color == 'rgba(38, 135, 252, 0.5)') {
-                    vetor.push(e);
+                    return true;
                 }
+                return false;
             });
-            return vetor;
+            return filtroLateral;
         },
 
         compPrivada() {
-            var vetor = [];
-            this.arrayPrivada.forEach((e) => {
+            var filtroLateral = filtroMapa = [];
+            filtroMapa = this.arrayPrivada.filter((e) => {
+                if (this.filter.sul && e.region == 'Sul') {
+                    return true;
+                }
+                if (this.filter.sudeste && e.region == 'Sudeste') {
+                    return true;
+                }
+                if (this.filter.nordeste && e.region == 'Nordeste') {
+                    return true;
+                }
+                if (this.filter.centro && e.region == 'Centro-Oeste') {
+                    return true;
+                }
+                if (this.filter.norte && e.region == 'Norte') {
+                    return true;
+                }
+                return false;
+            });
+            filtroLateral = filtroMapa.filter((e) => {
                 if (this.filter.biologicas && e.color == 'rgba(0, 184, 104, 0.5)') {
-                    vetor.push(e);
+                    return true;
                 }
                 if (this.filter.sociais && e.color == 'rgba(224, 79, 46, 0.5)') {
-                    vetor.push(e);
+                    return true;
                 }
                 if (this.filter.exatas && e.color == 'rgba(245, 235, 53, 0.5)') {
-                    vetor.push(e);
+                    return true;
                 }
                 if (this.filter.engenharias && e.color == 'rgba(215, 64, 255, 0.5)') {
-                    vetor.push(e);
+                    return true;
                 }
                 if (this.filter.saude && e.color == 'rgba(38, 135, 252, 0.5)') {
-                    vetor.push(e);
+                    return true;
                 }
+                return false;
             });
-            return vetor;
+            return filtroLateral;
         },
 
         compExterior() {
-            var vetor = [];
-            this.arrayExterior.forEach((e) => {
+            var filtroLateral = filtroMapa = [];
+            filtroMapa = this.arrayExterior.filter((e) => {
+                if (this.filter.sul && e.region == 'Sul') {
+                    return true;
+                }
+                if (this.filter.sudeste && e.region == 'Sudeste') {
+                    return true;
+                }
+                if (this.filter.nordeste && e.region == 'Nordeste') {
+                    return true;
+                }
+                if (this.filter.centro && e.region == 'Centro-Oeste') {
+                    return true;
+                }
+                if (this.filter.norte && e.region == 'Norte') {
+                    return true;
+                }
+                return false;
+            });
+            filtroLateral = filtroMapa.filter((e) => {
                 if (this.filter.biologicas && e.color == 'rgba(0, 184, 104, 0.5)') {
-                    vetor.push(e);
+                    return true;
                 }
                 if (this.filter.sociais && e.color == 'rgba(224, 79, 46, 0.5)') {
-                    vetor.push(e);
+                    return true;
                 }
                 if (this.filter.exatas && e.color == 'rgba(245, 235, 53, 0.5)') {
-                    vetor.push(e);
+                    return true;
                 }
                 if (this.filter.engenharias && e.color == 'rgba(215, 64, 255, 0.5)') {
-                    vetor.push(e);
+                    return true;
                 }
                 if (this.filter.saude && e.color == 'rgba(38, 135, 252, 0.5)') {
-                    vetor.push(e);
+                    return true;
                 }
+                return false;
             });
-            return vetor;
+            return filtroLateral;
         },
     },
 
     methods: {
-
     },
 });

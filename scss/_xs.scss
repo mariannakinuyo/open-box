@@ -41,22 +41,13 @@ h5 {
 
 .h-filter:hover {
   transition: 0.5;
-  fill: white;
+  // fill: white;
   cursor: pointer;
 }
 
 .h-filter.active {
   fill: white;
 }
-
-.name-pessoa {
-  display: none;
-}
-
-.over:hover.name-pessoa {
-  display: block;
-}
-
 
 /* Hide the browser's default checkbox */
 .c-filter {
