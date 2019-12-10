@@ -50,7 +50,11 @@ h5 {
 }
 
 .name-pessoa {
-  // display: none;
+  display: none;
+}
+
+.over:hover.name-pessoa {
+  display: block;
 }
 
 

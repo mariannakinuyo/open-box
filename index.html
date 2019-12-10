@@ -25,7 +25,7 @@
 
       <div class="col-lg-8">
 
-        <svg class="position-relative" width="872" height="737" viewBox="0 0 872 737" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg id="over" class="position-relative" width="100%" height="auto" viewBox="0 0 872 737" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M506.689 65.0476C572.677 77.2663 632.883 110.662 678.185 160.173C723.487 209.685 751.415 272.614 757.738 339.424C764.061 406.235 748.433 473.286 713.223 530.417C678.013 587.548 625.14 631.644 562.616 656.025C500.092 680.405 431.325 683.74 366.735 665.525C302.145 647.31 245.253 608.537 204.68 555.082C164.106 501.627 142.063 436.403 141.89 369.294C141.718 302.185 163.425 236.849 203.723 183.185" stroke="#BDBDBD"/>
         <path d="M507.028 127.032C558.667 139.157 605.052 167.537 639.357 207.995C673.662 248.453 694.076 298.853 697.595 351.781C701.115 404.708 687.554 457.367 658.908 502.011C630.262 546.655 588.043 580.927 538.464 599.783C488.884 618.639 434.562 621.084 383.488 606.759C332.415 592.434 287.288 562.095 254.747 520.205C222.205 478.315 203.968 427.087 202.718 374.058C201.467 321.029 217.27 268.998 247.801 225.621" stroke="#BDBDBD"/>
         <path d="M506.604 193.141C543.354 205.039 575.477 228.106 598.495 259.127C621.513 290.149 634.278 327.579 635.013 366.2C635.747 404.822 624.413 442.71 602.592 474.584C580.77 506.458 549.547 530.73 513.276 544.016C477.004 557.302 437.491 558.94 400.244 548.703C362.997 538.466 329.872 516.863 305.486 486.905C281.1 456.947 266.668 420.127 264.202 381.578C261.736 343.028 271.359 304.67 291.729 271.849" stroke="#BDBDBD"/>
@@ -52,17 +52,20 @@
         <circle cx="450.504" cy="369.555" r="123.842" transform="rotate(-66.0357 450.504 369.555)" stroke="rgba(255,255,255,0)"/>
         <rect x="399.5" y="244.5" width="107" height="24" rx="2.5" stroke="#BDBDBD"/>
         <!-- criar bolinhas aqui com seus respectivos ids-->
-        <circle v-for="(pessoa) in compExterior" :id="'exterior-' + pessoa.id" :cx="pessoa.cx" :cy="pessoa.cy" :r="pessoa.size" :fill="pessoa.color"/>
-        <circle v-for="(pessoa) in compPrivada" :id="'privada-' + pessoa.id" :cx="pessoa.cx" :cy="pessoa.cy" :r="pessoa.size" :fill="pessoa.color"/>
-        <circle v-for="(pessoa) in compEstadual" :id="'estadual-' + pessoa.id" :cx="pessoa.cx" :cy="pessoa.cy" :r="pessoa.size" :fill="pessoa.color"/>
-        <circle v-for="(pessoa) in compFederal" :id="'federal-' + pessoa.id" :cx="pessoa.cx" :cy="pessoa.cy" :r="pessoa.size" :fill="pessoa.color"/>
+        <circle v-for="(pessoa) in compExterior" :id="'exterior-' + pessoa.id" :cx="pessoa.cx" :cy="pessoa.cy" :r="pessoa.size" :fill="pessoa.color" class="over"/>
+        <circle v-for="(pessoa) in compPrivada" :id="'privada-' + pessoa.id" :cx="pessoa.cx" :cy="pessoa.cy" :r="pessoa.size" :fill="pessoa.color" class="over"/>
+        <circle v-for="(pessoa) in compEstadual" :id="'estadual-' + pessoa.id" :cx="pessoa.cx" :cy="pessoa.cy" :r="pessoa.size" :fill="pessoa.color" class="over"/>
+        <circle v-for="(pessoa) in compFederal" :id="'federal-' + pessoa.id" :cx="pessoa.cx" :cy="pessoa.cy" :r="pessoa.size" :fill="pessoa.color" class="over"/>
 
         <defs>
         <clipPath id="clip0">
         <rect width="217" height="208" fill="white" transform="translate(342 274)"/>
         </clipPath>
         </defs>
-        <!-- <text class="name-pessoa white" style="font-size: 14px;" fill="#ffffff" x="757.4203966514982" y="400.75863357749375">nome da pessoa</text> -->
+        <text v-for="(pessoa) in compExterior" class="name-pessoa white" style="font-size: 14px;" fill="#ffffff" :x="pessoa.cx" :y="pessoa.cy">{{ pessoa.name }}</text>
+        <text v-for="(pessoa) in compPrivada" class="name-pessoa white" style="font-size: 14px;" fill="#ffffff" :x="pessoa.cx" :y="pessoa.cy">{{ pessoa.name }}</text>
+        <text v-for="(pessoa) in compEstadual" class="name-pessoa white" style="font-size: 14px;" fill="#ffffff" :x="pessoa.cx" :y="pessoa.cy">{{ pessoa.name }}</text>
+        <text v-for="(pessoa) in compFederal" class="name-pessoa white" style="font-size: 14px;" fill="#ffffff" :x="pessoa.cx" :y="pessoa.cy">{{ pessoa.name }}</text>
         </svg>
 
         <text id="myTimer" text-anchor="middle" x="100" y="110" fill="#00CC33" style="font-size: 36px;" >0%</text>
@@ -113,6 +116,7 @@
   <!-- <script src="src/js/funcao.js"></script> -->
   <!-- <script src="/js/script.js"> -->
   <script>
+
 
 
   // $(document).ready(function() {

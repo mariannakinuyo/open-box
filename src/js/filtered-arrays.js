@@ -11,6 +11,8 @@ pessoas.nodes.forEach(e => {
             e.cx = 450.219 + (Math.sin(degrees/180*Math.PI) * 247.746);
             e.cy = 368.363 - (Math.cos(degrees/180*Math.PI) * 247.746);
             arrayFederal.push(e);
+            var x = e.cx;
+            var y = e.cy;
             break;
         case 'estadual':
             var degrees = (e.degrees+10);
