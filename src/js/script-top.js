@@ -57,7 +57,7 @@ var app = new Vue({
                 if (this.filter.exatas && e.color == 'rgba(245, 235, 53, 0.5)') {
                     return true;
                 }
-                if (this.filter.engenharias && e.color == 'rgba(215, 64, 255, 0.5)') {
+                if (this.filter.engenharias && e.color == 'rgba(214, 171, 252 ,0.5)') {
                     return true;
                 }
                 if (this.filter.saude && e.color == 'rgba(38, 135, 252, 0.5)') {
@@ -98,7 +98,7 @@ var app = new Vue({
                 if (this.filter.exatas && e.color == 'rgba(245, 235, 53, 0.5)') {
                     return true;
                 }
-                if (this.filter.engenharias && e.color == 'rgba(215, 64, 255, 0.5)') {
+                if (this.filter.engenharias && e.color == 'rgba(214, 171, 252 ,0.5)') {
                     return true;
                 }
                 if (this.filter.saude && e.color == 'rgba(38, 135, 252, 0.5)') {
@@ -139,7 +139,7 @@ var app = new Vue({
                 if (this.filter.exatas && e.color == 'rgba(245, 235, 53, 0.5)') {
                     return true;
                 }
-                if (this.filter.engenharias && e.color == 'rgba(215, 64, 255, 0.5)') {
+                if (this.filter.engenharias && e.color == 'rgba(214, 171, 252 ,0.5)') {
                     return true;
                 }
                 if (this.filter.saude && e.color == 'rgba(38, 135, 252, 0.5)') {
@@ -180,7 +180,7 @@ var app = new Vue({
                 if (this.filter.exatas && e.color == 'rgba(245, 235, 53, 0.5)') {
                     return true;
                 }
-                if (this.filter.engenharias && e.color == 'rgba(215, 64, 255, 0.5)') {
+                if (this.filter.engenharias && e.color == 'rgba(214, 171, 252 ,0.5)') {
                     return true;
                 }
                 if (this.filter.saude && e.color == 'rgba(38, 135, 252, 0.5)') {

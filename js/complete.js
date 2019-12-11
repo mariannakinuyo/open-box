@@ -87,7 +87,7 @@ pessoas = {
  {
    "id": 18,
    "name": "Debora Terezia Balogh",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -101,7 +101,7 @@ pessoas = {
  {
    "id": 25,
    "name": "Cleide Mara Faria Soares",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "SE",
    "region": "Nordeste",
@@ -129,7 +129,7 @@ pessoas = {
  {
    "id": 62,
    "name": "Linda Viola Ehlin Caldas",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -213,7 +213,7 @@ pessoas = {
  {
    "id": 99,
    "name": "Judith Pessoa de Andrade Feitosa",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "CE",
    "region": "Nordeste",
@@ -227,7 +227,7 @@ pessoas = {
  {
    "id": 104,
    "name": "Elisabete Frollini",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -255,7 +255,7 @@ pessoas = {
  {
    "id": 121,
    "name": "Maria do Carmo Rangel Santos Varela",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sul",
@@ -269,7 +269,7 @@ pessoas = {
  {
    "id": 122,
    "name": "Eliana Navarro dos Santos Muccillo",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -325,7 +325,7 @@ pessoas = {
  {
    "id": 154,
    "name": "Dulce Maria de Araújo Melo",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "parda",
    "state": "RN",
    "region": "Nordeste",
@@ -367,7 +367,7 @@ pessoas = {
  {
    "id": 196,
    "name": "Andrea Simone Stucchi de Camargo Alvarez Bernardez",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -451,7 +451,7 @@ pessoas = {
  {
    "id": 219,
    "name": "Maria Helena Andrade Santana",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -479,7 +479,7 @@ pessoas = {
  {
    "id": 250,
    "name": "Luciana Reyes Pires Kassab",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "parda",
    "state": "SP",
    "region": "Sudeste",
@@ -493,7 +493,7 @@ pessoas = {
  {
    "id": 5,
    "name": "Raquel de Lima Camargo Giordano",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -507,7 +507,7 @@ pessoas = {
  {
    "id": 19,
    "name": "Mirabel Cerqueira Rezende",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -549,7 +549,7 @@ pessoas = {
  {
    "id": 55,
    "name": "Maria Bernadete Amâncio Varesche",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -605,7 +605,7 @@ pessoas = {
  {
    "id": 120,
    "name": "Neyde Yukie Murakami Iha",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -787,7 +787,7 @@ pessoas = {
  {
    "id": 12,
    "name": "Ducinei Garcia",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -857,7 +857,7 @@ pessoas = {
  {
    "id": 30,
    "name": "Cheila Gonçalves Mothé",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "preta",
    "state": "RJ",
    "region": "Sudeste",
@@ -871,7 +871,7 @@ pessoas = {
  {
    "id": 33,
    "name": "Marcia Walquiria de Carvalho Dezotti",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -899,7 +899,7 @@ pessoas = {
  {
    "id": 43,
    "name": "Gisella Maria Zanin",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "PR",
    "region": "Sul",
@@ -983,7 +983,7 @@ pessoas = {
  {
    "id": 67,
    "name": "Martha Simões Ribeiro",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "parda",
    "state": "SP",
    "region": "Sudeste",
@@ -1081,7 +1081,7 @@ pessoas = {
  {
    "id": 112,
    "name": "Marisa Masumi Beppu",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1571,7 +1571,7 @@ pessoas = {
  {
    "id": 130,
    "name": "Diana Cristina Silva de Azevedo",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "CE",
    "region": "Nordeste",
@@ -1599,7 +1599,7 @@ pessoas = {
  {
    "id": 157,
    "name": "Telma Teixeira Franco",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1655,7 +1655,7 @@ pessoas = {
  {
    "id": 226,
    "name": "Rosangela Bergamasco",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "PR",
    "region": "Sul",
@@ -1711,7 +1711,7 @@ pessoas = {
  {
    "id": 94,
    "name": "Maria Regina Wolf Maciel",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1739,7 +1739,7 @@ pessoas = {
  {
    "id": 133,
    "name": "Ruth Herta Goldschmidt Aliaga Kiminami",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1837,7 +1837,7 @@ pessoas = {
  {
    "id": 3,
    "name": "Andrea Moura Bernardes",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sul",
@@ -1893,7 +1893,7 @@ pessoas = {
  {
    "id": 46,
    "name": "Virginia Sampaio Teixeira Ciminelli",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "MG",
    "region": "Sudeste",
@@ -1949,7 +1949,7 @@ pessoas = {
  {
    "id": 131,
    "name": "Irenilza de Alencar Naas",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -1963,7 +1963,7 @@ pessoas = {
  {
    "id": 150,
    "name": "Leda dos Reis Castilho",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -2005,7 +2005,7 @@ pessoas = {
  {
    "id": 92,
    "name": "Sofia Maria Carrato Diniz",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "MG",
    "region": "Sudeste",
@@ -2117,7 +2117,7 @@ pessoas = {
  {
    "id": 51,
    "name": "Raquel Santos Mauler",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sul",
@@ -2257,7 +2257,7 @@ pessoas = {
  {
    "id": 110,
    "name": "Claudia Sayer",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "SC",
    "region": "Sul",
@@ -2327,7 +2327,7 @@ pessoas = {
  {
    "id": 142,
    "name": "Bluma Guenther Soares",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "parda",
    "state": "RJ",
    "region": "Sudeste",
@@ -2341,7 +2341,7 @@ pessoas = {
  {
    "id": 145,
    "name": "Maria Aparecida Zaghete Bertochi",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -2355,7 +2355,7 @@ pessoas = {
  {
    "id": 147,
    "name": "Alexandra Ancelmo Piscitelli Mansur",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "MG",
    "region": "Sudeste",
@@ -2369,7 +2369,7 @@ pessoas = {
  {
    "id": 162,
    "name": "Ana Paula da Luz",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -2411,7 +2411,7 @@ pessoas = {
  {
    "id": 176,
    "name": "Fernanda Margarida Barbosa Coutinho",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -2425,7 +2425,7 @@ pessoas = {
  {
    "id": 181,
    "name": "Luciana Rocha Barros Gonçalves",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "CE",
    "region": "Nordeste",
@@ -2481,7 +2481,7 @@ pessoas = {
  {
    "id": 210,
    "name": "Maria Ines Basso Bernardi",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "SP",
    "region": "Sudeste",
@@ -2593,7 +2593,7 @@ pessoas = {
  {
    "id": 239,
    "name": "Iêda Maria Garcia dos Santos",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "PB",
    "region": "Nordeste",
@@ -2607,7 +2607,7 @@ pessoas = {
  {
    "id": 240,
    "name": "Fernanda Roberta Marciano",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "PI",
    "region": "Nordeste",
@@ -2649,7 +2649,7 @@ pessoas = {
  {
    "id": 103,
    "name": "Sergiane Caldas Barbosa",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sul",
@@ -2719,7 +2719,7 @@ pessoas = {
  {
    "id": 144,
    "name": "Mariana de Mattos Vieira Mello Souza",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -2789,7 +2789,7 @@ pessoas = {
  {
    "id": 16,
    "name": "Regina de Fátima Peralta Muniz Moreira",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "SC",
    "region": "Sul",
@@ -2845,7 +2845,7 @@ pessoas = {
  {
    "id": 38,
    "name": "Maria Ines Bruno Tavares",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "RJ",
    "region": "Sudeste",
@@ -2999,7 +2999,7 @@ pessoas = {
  {
    "id": 100,
    "name": "Selene Maria de Arruda Guelli Ulson de Souza",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "SC",
    "region": "Sul",
@@ -3013,7 +3013,7 @@ pessoas = {
  {
    "id": 102,
    "name": "Ligia Damasceno Ferreira Marczak",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "RS",
    "region": "Sul",
@@ -3069,7 +3069,7 @@ pessoas = {
  {
    "id": 127,
    "name": "Vanessa de Freitas Cunha Lins",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "MG",
    "region": "Sudeste",
@@ -3349,7 +3349,7 @@ pessoas = {
  {
    "id": 146,
    "name": "Helen Jamil Khoury",
-   "color": "rgba(215, 64, 255, 0.5)",
+   "color": "rgba(214, 171, 252 ,0.5)",
    "race": "branca",
    "state": "PE",
    "region": "Nordeste",
