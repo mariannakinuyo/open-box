@@ -16,8 +16,8 @@ arrayPrivada.forEach((el, index) => {
     var max_angle = Math.round(num); // posição final da bolinha
     var cos = Math.cos(num/180*Math.PI);
     var sen = Math.sin(num/180*Math.PI);
-    um.setAttribute("cx", 450.504 + (sen * 123.842));
-    um.setAttribute("cy", 369.555 - (cos * 123.842));
+    um.setAttribute("cx", 385.504 + (sen * 123.842));
+    um.setAttribute("cy", 369.558 - (cos * 123.842));
 });
 
 // EXTERIOR
@@ -28,8 +28,8 @@ arrayExterior.forEach((el, index) => {
     var max_angle = Math.round(num); // posição final da bolinha
     var cos = Math.cos(num/180*Math.PI);
     var sen = Math.sin(num/180*Math.PI);
-    um.setAttribute("cx", 449.447 + (sen * 185.611));
-    um.setAttribute("cy", 369.552 - (cos * 185.611));
+    um.setAttribute("cx", 384.447 + (sen * 185.611));
+    um.setAttribute("cy", 369.555 - (cos * 185.611));
 });
 
 // FEDERAL
@@ -40,8 +40,8 @@ arrayFederal.forEach((el, index) => {
     var max_angle = Math.round(num); // posição final da bolinha
     var cos = Math.cos(num/180*Math.PI);
     var sen = Math.sin(num/180*Math.PI);
-    um.setAttribute("cx", 450.219 + (sen * 247.746));
-    um.setAttribute("cy", 368.363 - (cos * 247.746));
+    um.setAttribute("cx", 385.219 + (sen * 247.746));
+    um.setAttribute("cy", 368.366 - (cos * 247.746));
 });
 
 
@@ -53,6 +53,6 @@ arrayEstadual.forEach((el, index) => {
     var max_angle = num; // posição final da bolinha
     var cos = Math.cos(max_angle/180*Math.PI);
     var sen = Math.sin(max_angle/180*Math.PI);
-    um.setAttribute("cx", 450.5 + (sen * 308.611));
-    um.setAttribute("cy", 368.5 - (cos * 308.611));
+    um.setAttribute("cx", 385.5 + (sen * 308.611));
+    um.setAttribute("cy", 368.503 - (cos * 308.611));
 });
