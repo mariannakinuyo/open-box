@@ -17,13 +17,22 @@ var app = new Vue({
             centro: true,
             norte: true,
         },
+        showTag: [],
     },
 
     mounted() {
-        this.arrayFederal = arrayFederal;
-        this.arrayEstadual = arrayEstadual;
-        this.arrayPrivada = arrayPrivada;
-        this.arrayExterior = arrayExterior;
+        this.arrayFederal = arrayFederal.sort(function(a, b) {
+            return b.size - a.size;
+        });
+        this.arrayEstadual = arrayEstadual.sort(function(a, b) {
+            return b.size - a.size;
+        });
+        this.arrayPrivada = arrayPrivada.sort(function(a, b) {
+            return b.size - a.size;
+        });
+        this.arrayExterior = arrayExterior.sort(function(a, b) {
+            return b.size - a.size;
+        });
     },
 
     computed: {
@@ -194,8 +203,16 @@ var app = new Vue({
 
     methods: {
         showName(el) {
-            console.log(el);
-            
+            let index = (el.toElement.id).split('-');
+            $('#texto-'+index[1]).removeClass('d-none');
+            setTimeout(function(){ $('#texto-'+index[1]).addClass('d-none'); }, 1000);
+            // console.log('entrou');
+        },
+
+        hideName(el) {
+            // let index = (el.toElement.id).split('-');
+            // $('#texto-'+index[1]).addClass('d-none');
+            // console.log('saiu');
         },
     },
 });

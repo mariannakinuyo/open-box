@@ -86,16 +86,16 @@
         <circle cx="429" cy="142.499" r="4" fill="#00B868"/> -->
 
         <!-- criar bolinhas aqui com seus respectivos ids-->
-        <circle v-for="(pessoa) in compExterior" :id="'exterior-' + pessoa.id" :cx="pessoa.cx" :cy="pessoa.cy" :r="pessoa.size" :fill="pessoa.color" @mouseover="showName" class="over"/>
+        <circle v-for="(pessoa) in compExterior" :id="'exterior-' + pessoa.id" :cx="pessoa.cx" :cy="pessoa.cy" :r="pessoa.size" :fill="pessoa.color" @mouseover="showName" class="over"/> <!--  @mouseleave="hideName" -->
         <circle v-for="(pessoa) in compPrivada" :id="'privada-' + pessoa.id" :cx="pessoa.cx" :cy="pessoa.cy" :r="pessoa.size" :fill="pessoa.color" @mouseover="showName" class="over"/>
         <circle v-for="(pessoa) in compEstadual" :id="'estadual-' + pessoa.id" :cx="pessoa.cx" :cy="pessoa.cy" :r="pessoa.size" :fill="pessoa.color" @mouseover="showName" class="over"/>
         <circle v-for="(pessoa) in compFederal" :id="'federal-' + pessoa.id" :cx="pessoa.cx" :cy="pessoa.cy" :r="pessoa.size" :fill="pessoa.color" @mouseover="showName" class="over"/>
 
         <!-- Nomes -->
-        <!-- <text v-for="(pessoa) in compExterior" class="name-pessoa white opacity" style="font-size: 10px;" fill="#ffffff" :x="pessoa.cx" :y="pessoa.cy">{{ pessoa.name }}</text>
-        <text v-for="(pessoa) in compPrivada" class="name-pessoa white opacity" style="font-size: 10px;" fill="#ffffff" :x="pessoa.cx" :y="pessoa.cy">{{ pessoa.name }}</text>
-        <text v-for="(pessoa) in compEstadual" class="name-pessoa white opacity" style="font-size: 10px;" fill="#ffffff" :x="pessoa.cx" :y="pessoa.cy">{{ pessoa.name }}</text>
-        <text v-for="(pessoa) in compFederal" class="name-pessoa white opacity" style="font-size: 10px;" fill="#ffffff" :x="pessoa.cx" :y="pessoa.cy">{{ pessoa.name }}</text> -->
+        <text v-for="(pessoa) in compExterior" :id="'texto-' + pessoa.id" class="name-pessoa white opacity d-none" style="font-size: 10px;" fill="#ffffff" :x="pessoa.cx" :y="pessoa.cy">{{ pessoa.name }}</text>
+        <text v-for="(pessoa) in compPrivada" :id="'texto-' + pessoa.id" class="name-pessoa white opacity d-none" style="font-size: 10px;" fill="#ffffff" :x="pessoa.cx" :y="pessoa.cy">{{ pessoa.name }}</text>
+        <text v-for="(pessoa) in compEstadual" :id="'texto-' + pessoa.id" class="name-pessoa white opacity d-none" style="font-size: 10px;" fill="#ffffff" :x="pessoa.cx" :y="pessoa.cy">{{ pessoa.name }}</text>
+        <text v-for="(pessoa) in compFederal" :id="'texto-' + pessoa.id" class="name-pessoa white opacity d-none" style="font-size: 10px;" fill="#ffffff" :x="pessoa.cx" :y="pessoa.cy">{{ pessoa.name }}</text>
 
 
         </svg>
@@ -111,7 +111,7 @@
             <h5 class="newgrey mb-lg-3">clique para filtrar por grande área</h5>
             <div class="">
               <label class="c-filter">Ciências biológicas
-                <input type="checkbox" v-model="filter.biologicas"> <!--  @click="filterGreen" -->
+                <input type="checkbox" v-model="filter.biologicas">
                 <span class="checkmark checkmark-green"></span>
               </label>
               <label class="c-filter">Ciências sociais aplicadas
@@ -136,10 +136,7 @@
       </div>
     </div>
 
-    <!-- <script
-    src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="src/js/complete.js"></script>
     <script src="src/js/filtered-arrays.js"></script>
