@@ -193,5 +193,9 @@ var app = new Vue({
     },
 
     methods: {
+        showName(el) {
+            console.log(el);
+            
+        },
     },
 });

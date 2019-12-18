@@ -101,10 +101,10 @@
         <!-- <circle cx="385.504" cy="369.558" r="123.842" transform="rotate(-66.0357 385.504 369.558)" stroke="white"/> -->
 
         <!-- criar bolinhas aqui com seus respectivos ids-->
-        <circle v-for="(pessoa) in compExterior" :id="'exterior-' + pessoa.id" :cx="pessoa.cx" :cy="pessoa.cy" :r="pessoa.size" :fill="pessoa.color" class="over"/>
-        <circle v-for="(pessoa) in compPrivada" :id="'privada-' + pessoa.id" :cx="pessoa.cx" :cy="pessoa.cy" :r="pessoa.size" :fill="pessoa.color" class="over"/>
-        <circle v-for="(pessoa) in compEstadual" :id="'estadual-' + pessoa.id" :cx="pessoa.cx" :cy="pessoa.cy" :r="pessoa.size" :fill="pessoa.color" class="over"/>
-        <circle v-for="(pessoa) in compFederal" :id="'federal-' + pessoa.id" :cx="pessoa.cx" :cy="pessoa.cy" :r="pessoa.size" :fill="pessoa.color" class="over"/>
+        <circle v-for="(pessoa) in compExterior" :id="'exterior-' + pessoa.id" :cx="pessoa.cx" :cy="pessoa.cy" :r="pessoa.size" :fill="pessoa.color" @mouseover="showName" class="over"/>
+        <circle v-for="(pessoa) in compPrivada" :id="'privada-' + pessoa.id" :cx="pessoa.cx" :cy="pessoa.cy" :r="pessoa.size" :fill="pessoa.color" @mouseover="showName" class="over"/>
+        <circle v-for="(pessoa) in compEstadual" :id="'estadual-' + pessoa.id" :cx="pessoa.cx" :cy="pessoa.cy" :r="pessoa.size" :fill="pessoa.color" @mouseover="showName" class="over"/>
+        <circle v-for="(pessoa) in compFederal" :id="'federal-' + pessoa.id" :cx="pessoa.cx" :cy="pessoa.cy" :r="pessoa.size" :fill="pessoa.color" @mouseover="showName" class="over"/>
 
         <!-- <text v-for="(pessoa) in compExterior" class="name-pessoa white" style="font-size: 10px;" fill="#ffffff" :x="pessoa.cx" :y="pessoa.cy">{{ pessoa.name }}</text>
         <text v-for="(pessoa) in compPrivada" class="name-pessoa white" style="font-size: 10px;" fill="#ffffff" :x="pessoa.cx" :y="pessoa.cy">{{ pessoa.name }}</text>
