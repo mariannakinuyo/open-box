@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>HOME</title>
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://use.typekit.net/uqe1gvw.css">
 </head>
 
@@ -18,7 +18,7 @@
   <div id="open-box" class="container-fluid">
     <div class="row">
       <div class="col-lg-2">
-        <h1>UNIVERSIDADE DE DOUTORAMENTO</h1>
+        <!-- <h1>UNIVERSIDADE DE DOUTORAMENTO</h1> -->
       </div>
 
 <!-- chart -->
@@ -100,17 +100,18 @@
         <!-- privada -->
         <!-- <circle cx="385.504" cy="369.558" r="123.842" transform="rotate(-66.0357 385.504 369.558)" stroke="white"/> -->
 
-
         <!-- criar bolinhas aqui com seus respectivos ids-->
         <circle v-for="(pessoa) in compExterior" :id="'exterior-' + pessoa.id" :cx="pessoa.cx" :cy="pessoa.cy" :r="pessoa.size" :fill="pessoa.color" class="over"/>
         <circle v-for="(pessoa) in compPrivada" :id="'privada-' + pessoa.id" :cx="pessoa.cx" :cy="pessoa.cy" :r="pessoa.size" :fill="pessoa.color" class="over"/>
         <circle v-for="(pessoa) in compEstadual" :id="'estadual-' + pessoa.id" :cx="pessoa.cx" :cy="pessoa.cy" :r="pessoa.size" :fill="pessoa.color" class="over"/>
         <circle v-for="(pessoa) in compFederal" :id="'federal-' + pessoa.id" :cx="pessoa.cx" :cy="pessoa.cy" :r="pessoa.size" :fill="pessoa.color" class="over"/>
 
+        <!-- <text v-for="(pessoa) in compExterior" class="name-pessoa white" style="font-size: 10px;" fill="#ffffff" :x="pessoa.cx" :y="pessoa.cy">{{ pessoa.name }}</text>
+        <text v-for="(pessoa) in compPrivada" class="name-pessoa white" style="font-size: 10px;" fill="#ffffff" :x="pessoa.cx" :y="pessoa.cy">{{ pessoa.name }}</text>
+        <text v-for="(pessoa) in compEstadual" class="name-pessoa white" style="font-size: 10px;" fill="#ffffff" :x="pessoa.cx" :y="pessoa.cy">{{ pessoa.name }}</text>
+        <text v-for="(pessoa) in compFederal" class="name-pessoa white" style="font-size: 10px;" fill="#ffffff" :x="pessoa.cx" :y="pessoa.cy">{{ pessoa.name }}</text> -->
 
         </svg>
-
-
 
       </div>
 
@@ -119,7 +120,8 @@
 
         <div class="col-lg-2">
           <div class="mt-lg-5 mt-3">
-            <h5 class="newgrey text-uppercase mb-lg-4">Área de pesquisa</h5>
+            <h5 class="newgrey text-uppercase mb-lg-0">Grande área de pesquisa</h5>
+            <h5 class="newgrey mb-lg-3">clique para filtrar por grande área</h5>
             <div class="">
               <label class="c-filter">Ciências biológicas
                 <input type="checkbox" v-model="filter.biologicas"> <!--  @click="filterGreen" -->
