@@ -205,7 +205,7 @@ var app = new Vue({
         showName(el) {
             let index = (el.toElement.id).split('-');
             $('#texto-'+index[1]).removeClass('d-none');
-            setTimeout(function(){ $('#texto-'+index[1]).addClass('d-none'); }, 1000);
+            setTimeout(function(){ $('#texto-'+index[1]).addClass('d-none'); }, 500);
             // console.log('entrou');
         },
 
