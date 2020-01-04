@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://use.typekit.net/uqe1gvw.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 </head>
 
 <body style="background-color: #262624;">
@@ -30,8 +31,7 @@
           <img class="w-100" src="legenda-2.svg" alt="">
         </div>
 
-
-        <svg  id="over" class="position-relative" width="100%" height="auto" viewBox="0 0 737 752" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg  id="over" class="position-relative " width="100%" height="auto" viewBox="0 0 737 752" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
 
           <path opacity="0.2" d="M424.689 80.0382C491.551 92.4189 552.453 126.536 597.931 177.088C643.41 227.641 670.918 291.798 676.184 359.593C681.45 427.388 664.177 495.023 627.05 551.992C589.922 608.96 535.019 652.072 470.87 674.628C406.722 697.184 336.919 697.922 272.308 676.727C207.697 655.532 151.894 613.591 113.571 557.421C75.2473 501.25 56.5485 433.994 60.3795 366.104C64.2106 298.213 90.3569 233.488 134.756 181.985" stroke="white"/>
           <path opacity="0.2" d="M425.028 142.022C477.689 154.388 524.856 183.649 559.326 225.337C593.796 267.025 613.675 318.85 615.926 372.897C618.178 426.943 602.679 480.242 571.796 524.653C540.913 569.064 496.343 602.146 444.892 618.849C393.442 635.552 337.939 634.956 286.859 617.153C235.779 599.351 191.929 565.319 162.006 520.256C132.083 475.192 117.731 421.574 121.142 367.588C124.552 313.602 145.538 262.216 180.895 221.277" stroke="white"/>
@@ -97,15 +97,12 @@
           <circle v-for="(pessoa) in compFederal" :id="'federal-' + pessoa.id" :cx="pessoa.cx" :cy="pessoa.cy" :r="pessoa.size" :fill="pessoa.color" @mouseover="showName" class="over"/>
 
           <!-- Nomes -->
-          <text v-for="(pessoa) in compExterior" :id="'texto-' + pessoa.id" class="name-pessoa white opacity d-none" style="font-size: 10px;" fill="#ffffff" :x="pessoa.cx" :y="pessoa.cy">{{ pessoa.name }}</text>
-          <text v-for="(pessoa) in compPrivada" :id="'texto-' + pessoa.id" class="name-pessoa white opacity d-none" style="font-size: 10px;" fill="#ffffff" :x="pessoa.cx" :y="pessoa.cy">{{ pessoa.name }}</text>
-          <text v-for="(pessoa) in compEstadual" :id="'texto-' + pessoa.id" class="name-pessoa white opacity d-none" style="font-size: 10px;" fill="#ffffff" :x="pessoa.cx" :y="pessoa.cy">{{ pessoa.name }}</text>
-          <text v-for="(pessoa) in compFederal" :id="'texto-' + pessoa.id" class="name-pessoa white opacity d-none" style="font-size: 10px;" fill="#ffffff" :x="pessoa.cx" :y="pessoa.cy">{{ pessoa.name }}</text>
+          <text v-for="(pessoa) in compExterior" :id="'texto-' + pessoa.id" class="name-pessoa white opacity d-none" style="font-size: 10px;" fill="#ffffff" :x="pessoa.cx" :y="pessoa.cy">{{ pessoa.name }} ({{ pessoa.state }})</text>
+          <text v-for="(pessoa) in compPrivada" :id="'texto-' + pessoa.id" class="name-pessoa white opacity d-none" style="font-size: 10px;" fill="#ffffff" :x="pessoa.cx" :y="pessoa.cy">{{ pessoa.name }} ({{ pessoa.state }})</text>
+          <text v-for="(pessoa) in compEstadual" :id="'texto-' + pessoa.id" class="name-pessoa white opacity d-none" style="font-size: 10px;" fill="#ffffff" :x="pessoa.cx" :y="pessoa.cy">{{ pessoa.name }} ({{ pessoa.state }})</text>
+          <text v-for="(pessoa) in compFederal" :id="'texto-' + pessoa.id" class="name-pessoa white opacity d-none" style="font-size: 10px;" fill="#ffffff" :x="pessoa.cx" :y="pessoa.cy">{{ pessoa.name }} ({{ pessoa.state }})</text>
 
         </svg>
-
-
-
 
       </div>
 
@@ -139,6 +136,7 @@
               </label>
             </div>
           </div>
+
         </div>
       </div>
     </div>
