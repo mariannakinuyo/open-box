@@ -3558,10 +3558,10 @@ var template = function (t) {
     margin_right: .75,
     margin_bottom: .75,
     margin_left: .75,
-    space_between_sections: 0,
+    space_between_sections: 1,
     space_between_sections_custom: 1,
     background_color_enabled: !0,
-    background_color: "#ffffff",
+    background_color: "#262624",
     background_image_enabled: !1,
     background_image_src: "",
     background_image_size: "cover",
@@ -5651,7 +5651,7 @@ var template = function (t) {
         a = i.enter().append("g").classed("node", !0).attr("transform", function (t) {
           return "translate(" + [t.display.x0, t.display.y0] + ")"
         });
-      a.append("rect").style("stroke", "white").style("stroke-width", 1).attr("width", function (t) {
+      a.append("rect").style("stroke", "#262624").style("stroke-width", 1).attr("width", function (t) {
         return t.display.x1 - t.display.x0
       }).attr("height", function (t) {
         return t.display.y1 - t.display.y0
