@@ -1,3 +1,4 @@
+/* Junta tudo */
 window.Flourish = {
   external: true
 };

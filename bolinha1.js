@@ -1,3 +1,4 @@
+/* Define o flourish */
 var template = function (t) {
   "use strict";
   var l = {},
@@ -38,7 +39,7 @@ var template = function (t) {
       control_width: 300,
       filter_type: "auto",
       filter_include_all: !0,
-      filter_all_label: "All",
+      filter_all_label: "todas",
       animation_duration: 1,
       zoom_out_button_color: "#f3f3f3",
       zoom_out_arrow_color: "#000000",
@@ -1119,6 +1120,16 @@ var template = function (t) {
       whitesmoke: 16119285,
       yellow: 16776960,
       yellowgreen: 10145074
+      // green: 'rgba(0, 184, 104, 1)',
+      // red: 'rgba(224, 79, 46, 1)',
+      // yellow: 'rgba(245, 235, 53, 1)',
+      // pink: 'rgba(214, 171, 252, 1)',
+      // blue: 'rgba(38, 135, 252, 1)'
+      // green: 32768,
+      // red: 16711680,
+      // yellow: 16776960,
+      // pink: 16761035,
+      // blue: 255,
     };
 
   function Ft() {
@@ -6908,7 +6919,21 @@ var template = function (t) {
     ! function () {
       Ci = I(document.body), Si = I(ya.getSection("primary"));
       var t = (Di = I(ya.getSection("controls"))).append("div").classed("control-group filter", !0);
-      t.append("div").text("Filter: "), t.append("div").attr("id", "filter"), (t = Di.append("div").classed("control-group size-by", !0)).append("div").text("Size by: "), t.append("div").attr("id", "size-by-control"), Ei = Si.append("svg").classed("noselect", !0), Li = Ei.append("rect").classed("background", !0).style("fill", "none").style("pointer-events", "visible"), Ni = Ei.append("g").classed("g-treemap", !0), Pi = Ei.append("g").classed("g-circle-packing", !0).attr("transform", "translate(" + Zr.x + "," + Zr.y + ")"), Fi = Ei.append("g").classed("g-sunburst", !0), (Oi = Ei.append("g").classed("g-bar", !0)).append("g").classed("breadcrumb", !0).append("text"), Oi.append("g").classed("bars", !0), (Hi = Ei.append("g").classed("g-radial-tree", !0)).append("g").classed("links", !0), Hi.append("g").classed("nodes", !0), (Ui = Si.append("div").classed("zoomout-button", !0).attr("title", "Go up a level")).append("svg").append("path").attr("d", "M7.285,16.01l4.12,4.119l5.137,-5.137l0,21.201l5.825,0l0,-21.201l5.138,5.137l4.119,-4.119l-12.169,-12.169l-12.17,12.169Z"), Li.on("mouseover", function () {
+        t.append("div").text("GRANDE ÁREA: ").style("color", "#696969").style("font-size", "16px").style("font-weight", 600),
+        t.append("div").attr("id", "filter"),
+        (t = Di.append("div").classed("control-group size-by", !0)).append("div").text("Size by: "),
+        t.append("div").attr("id", "size-by-control"),
+        Ei = Si.append("svg").classed("noselect", !0),
+        Li = Ei.append("rect").classed("background", !0).style("fill", "#262624").style("pointer-events", "visible"),
+        Ni = Ei.append("g").classed("g-treemap", !0),
+        Pi = Ei.append("g").classed("g-circle-packing", !0).attr("transform", "translate(" + Zr.x + "," + Zr.y + ")"),
+        Fi = Ei.append("g").classed("g-sunburst", !0),
+        (Oi = Ei.append("g").classed("g-bar", !0)).append("g").classed("breadcrumb", !0).append("text"),
+        Oi.append("g").classed("bars", !0),
+        (Hi = Ei.append("g").classed("g-radial-tree", !0)).append("g").classed("links", !0),
+        Hi.append("g").classed("nodes", !0),
+        (Ui = Si.append("div").classed("zoomout-button", !0).attr("title", "Go up a level")).append("svg").append("path").attr("d", "M7.285,16.01l4.12,4.119l5.137,-5.137l0,21.201l5.825,0l0,-21.201l5.138,5.137l4.119,-4.119l-12.169,-12.169l-12.17,12.169Z"),
+      Li.on("mouseover", function () {
         $r("updateHighlightedNode", null), !1 === m.popup_info.frozen && $r("hidePopup")
       }).on("click", function () {
         $r("zoomOut")

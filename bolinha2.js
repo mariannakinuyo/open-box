@@ -1,3 +1,4 @@
+/* Define as opcoes do iframe */
 ! function () {
   "use strict";
   var t, a;

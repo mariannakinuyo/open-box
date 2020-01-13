@@ -1,3 +1,4 @@
+/* Define os dados a serem usados */
 function _Flourish_unflattenInto(dest, src) {
   dest = dest || {};
   for (var k in src) {
@@ -12,7 +13,7 @@ function _Flourish_unflattenInto(dest, src) {
   return dest;
 }
 var _Flourish_settings = {
-  "hierarchy_layout": "treemap"
+  "hierarchy_layout": "treemap" // circlePacking
 };
 _Flourish_unflattenInto(window.template.state, _Flourish_settings);
 
