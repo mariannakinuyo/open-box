@@ -216,3 +216,8 @@ var app = new Vue({
         },
     },
 });
+
+
+$('.zoom').on('click', function(){
+  $(".this").addClass('svg');
+});
