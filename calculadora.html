@@ -13,34 +13,35 @@
       <div class="row">
 
         <div class="col-12 mt-5">
-          <label for="final">Final:</label>
+          <h2><strong>Onde você está na escala da produção científica?</strong></h2>
+          <label for="final">Final</label>
           <input type='text' class='custo' id='final' name='final' value='0'>
-          <br>
-          <br>
           <div class="">
-            <label for="primeiro">Primeira autoria de publicações científicas e relevância das publicações de acordo com o QUALIS/CAPES A1, A2 e B1 - ordem do autor</label>
-            <input type='text' class='margem lucro' id='primeiro' name='primeiro' value='5'>
+            <label for="primeiro">Em quantas publicações científicas é a primeira autora?</label>
+            <input type='text' class='margem ponto' id='primeiro' name='primeiro' value=''>
           </div>
           <div class="">
-            <label for="segundo">Segunda autoria em diante de publicações científicas e relevância das publicações de acordo com o QUALIS/CAPES A1, A2 e B1 - ordem do autor</label>
-            <input type='text' class='margem lucro' id='segundo' name='segundo' value='4'>
+            <label for="segundo">Em quantas publicações é segunda autora em diante?</label>
+            <input type='text' class='margem ponto' id='segundo' name='segundo' value=''>
           </div>
           <div class="">
-            <label for="terceiro">Premiações</label>
-            <input type='text' class='margem lucro' id='terceiro' name='terceiro' value='2'>
+            <label for="terceiro">Quantas premiações recebeu?</label>
+            <input type='text' class='margem ponto' id='terceiro' name='terceiro' value=''>
           </div>
           <div class="">
-            <label for="quarto">Organização de eventos, congressos, exposições e feiras</label>
-            <input type='text' class='margem lucro' id='quarto' name='quarto' value='2'>
+            <label for="quarto">Quantos eventos, congressos, exposições e feiras organizou?</label>
+            <input type='text' class='margem ponto' id='quarto' name='quarto' value=''>
           </div>
           <div class="">
-            <label for="quinto">Participação em eventos, congressos, exposições e feiras</label>
-            <input type='text' class='margem lucro' id='quinto' name='quinto' value='1'>
+            <label for="quinto">De quantos eventos, congressos, exposições e feiras participou?</label>
+            <input type='text' class='margem ponto' id='quinto' name='quinto' value=''>
           </div>
-          <div class="btn calcular" id="calcular">  vai!  </div>
+          <!-- <div class="center"> -->
+            <div class="btn calcular" id="calcular">Calcular</div>
+          <!-- </div> -->
         </div>
 
-        <div class="col-8 mt-5">
+        <div class="col-12 mt-5">
           <div class="slidecontainer">
             <!-- <input type="range" min="1" max="100" value="50" class="slider" id="myRange"> -->
             <div class="slider">
@@ -48,7 +49,6 @@
                 <div id="position" class="position-calc">
                 </div>
               </div>
-              <!-- <div id="position" class="position-calc"></div> -->
             </div>
           </div>
         </div>
@@ -95,11 +95,11 @@
             var quinto = $("#quinto").val();
 
 
-            $('.lucro').each(function(){
+            $('.ponto').each(function(){
               var valor = Number($(this).val());
               if (!isNaN(valor)) total += valor;
             });
-            total = total + ( primeiro * '5') + ( segundo * '4') + ( terceiro * '2') + ( quarto * '2') + ( quinto * '1') ;
+            total = ((( primeiro * '5') + ( segundo * '4') + ( terceiro * '2') + ( quarto * '2') + ( quinto * '1')) * '0.023' ) - '3'  ;
             // $("#final").html(total.toFixed(2));
             $("#final").attr('value', total);
             $("#calc").css('width', total+'%');
