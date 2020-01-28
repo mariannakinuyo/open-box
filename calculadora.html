@@ -60,8 +60,7 @@
         $(document).ready(function() {
           $("#calcular").click(function(){
             var total = 0;
-            var ese = 0;
-
+            var final = 0;
             var primeiro = $("#primeiro").val();
             var segundo = $("#segundo").val();
             var terceiro = $("#terceiro").val();
@@ -74,23 +73,27 @@
               if (!isNaN(valor)) total += valor;
             });
 
-            total = ((( primeiro * '5') + ( segundo * '4') + ( terceiro * '2') + ( quarto * '2') + ( quinto * '1')) * '0.023' ) - '3'  ;
+            total = ((( primeiro * '5') + ( segundo * '4') + ( terceiro * '2') + ( quarto * '2') + ( quinto * '1')) * '0.023' ) ;
+            // final = total  - '3' ;
+
 
             $("#final").attr('value', total);
 
             if( total > '95' ) {
               $("#calc").css('width', '95.5%');
-            } else if ( total <= '1' ) {
-              $("#calc").css('width', '1%');
-            } else
-              $("#calc").css('width', total+'%');
-
-            // console.log(total);
-            // console.log(primeiro * '5');
-            // console.log(segundo * '4');
-            // console.log(terceiro * '2');
-            // console.log(quarto * '2');
-            // console.log(quinto * '1');
+            } else if ( total <= '3' ) {
+              final = total;
+              $("#calc").css('width', final+'%');
+            } else {
+              final = total  - '3' ;
+              $("#calc").css('width', final+'%');
+            }
+            console.log(final);
+            console.log(primeiro * '5');
+            console.log(segundo * '4');
+            console.log(terceiro * '2');
+            console.log(quarto * '2');
+            console.log(quinto * '1');
 
             $("#position").css('opacity', '1');
 
