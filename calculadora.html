@@ -14,31 +14,29 @@
 
         <div class="col-12 mt-5">
           <h2><strong>Onde você está na escala da produção científica?</strong></h2>
-          <label for="final">Final</label>
-          <input type='text' class='custo' id='final' name='final' value='0'>
+          <!-- <label for="final">Final</label>
+          <input type='text' class='custo' id='final' name='final' value='0'> -->
           <div class="">
             <label for="primeiro">Em quantas publicações científicas é a primeira autora?</label>
-            <input type='text' class='margem ponto' id='primeiro' name='primeiro' value=''>
+            <input type='text' class='margem ponto' id='primeiro' name='primeiro' value='0'>
           </div>
           <div class="">
             <label for="segundo">Em quantas publicações é segunda autora em diante?</label>
-            <input type='text' class='margem ponto' id='segundo' name='segundo' value=''>
+            <input type='text' class='margem ponto' id='segundo' name='segundo' value='0'>
           </div>
           <div class="">
             <label for="terceiro">Quantas premiações recebeu?</label>
-            <input type='text' class='margem ponto' id='terceiro' name='terceiro' value=''>
+            <input type='text' class='margem ponto' id='terceiro' name='terceiro' value='0'>
           </div>
           <div class="">
             <label for="quarto">Quantos eventos, congressos, exposições e feiras organizou?</label>
-            <input type='text' class='margem ponto' id='quarto' name='quarto' value=''>
+            <input type='text' class='margem ponto' id='quarto' name='quarto' value='0'>
           </div>
           <div class="">
             <label for="quinto">De quantos eventos, congressos, exposições e feiras participou?</label>
-            <input type='text' class='margem ponto' id='quinto' name='quinto' value=''>
+            <input type='text' class='margem ponto' id='quinto' name='quinto' value='0'>
           </div>
-          <!-- <div class="center"> -->
-            <div class="btn calcular" id="calcular">Calcular</div>
-          <!-- </div> -->
+          <div class="btn calcular" id="calcular">Calcular</div>
         </div>
 
         <div class="col-12 mt-5">
@@ -59,35 +57,11 @@
 
     <script type="text/javascript">
 
-          // var primeiro = $('#primeiro').attr('value');
-          // var segundo = $('#segundo').val();
-          // var terceiro = $('#terceiro').val();
-          // var quarto = $('#quarto').val();
-          // var quinto = $('#quinto').val();
-
-        // function atualizarValorTotal() {
-            // $(document).ready(function(){
-            //
-            //   var final = Math.round( primeiro + segundo + terceiro + quarto + quinto );
-            //
-            //   final.setAttribute( 'value', final );
-            // });
-            // console.log(final);
-
-        // }
-
-
-        // $(document).ready(function(){
-        //   $("#final").change(function(){
-        //     atualizarValorTotal();
-        //   });
-        // });
-        //
-        // atualizarValorTotal();
-
         $(document).ready(function() {
           $("#calcular").click(function(){
             var total = 0;
+            var ese = 0;
+
             var primeiro = $("#primeiro").val();
             var segundo = $("#segundo").val();
             var terceiro = $("#terceiro").val();
@@ -99,16 +73,24 @@
               var valor = Number($(this).val());
               if (!isNaN(valor)) total += valor;
             });
+
             total = ((( primeiro * '5') + ( segundo * '4') + ( terceiro * '2') + ( quarto * '2') + ( quinto * '1')) * '0.023' ) - '3'  ;
-            // $("#final").html(total.toFixed(2));
+
             $("#final").attr('value', total);
-            $("#calc").css('width', total+'%');
-            console.log(total);
-            console.log(primeiro * '5');
-            console.log(segundo * '4');
-            console.log(terceiro * '2');
-            console.log(quarto * '2');
-            console.log(quinto * '1');
+
+            if( total > '95' ) {
+              $("#calc").css('width', '95.5%');
+            } else if ( total <= '1' ) {
+              $("#calc").css('width', '1%');
+            } else
+              $("#calc").css('width', total+'%');
+
+            // console.log(total);
+            // console.log(primeiro * '5');
+            // console.log(segundo * '4');
+            // console.log(terceiro * '2');
+            // console.log(quarto * '2');
+            // console.log(quinto * '1');
 
             $("#position").css('opacity', '1');
 
