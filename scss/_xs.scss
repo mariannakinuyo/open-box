@@ -48,10 +48,14 @@ h5 {
   transition: 0.5;
   // fill: white;
   cursor: pointer;
+  fill: rgba(255,255,255,0.5);
 }
 
 .h-filter.active {
   fill: white;
+  &:hover {
+    fill: rgba(255,255,255,0.5);
+  }
 }
 
 /* Hide the browser's default checkbox */
@@ -63,6 +67,10 @@ h5 {
   cursor: pointer;
   font-family: $font-primary;
   font-size: 14px;
+  &:hover {
+    color: white;
+    font-weight: bold;
+  }
 }
 
 .c-filter input {

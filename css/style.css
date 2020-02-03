@@ -9701,10 +9701,14 @@ h5 {
 .h-filter:hover {
   transition: 0.5;
   cursor: pointer;
+  fill: rgba(255, 255, 255, 0.5);
 }
 
 .h-filter.active {
   fill: white;
+}
+.h-filter.active:hover {
+  fill: rgba(255, 255, 255, 0.5);
 }
 
 /* Hide the browser's default checkbox */
@@ -9716,6 +9720,10 @@ h5 {
   cursor: pointer;
   font-family: "sys-tt", sans-serif;
   font-size: 14px;
+}
+.c-filter:hover {
+  color: white;
+  font-weight: bold;
 }
 
 .c-filter input {
