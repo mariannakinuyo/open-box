@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HOME</title>
+    <title>Calculadora da produção científica</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -14,6 +14,69 @@
 
         <div class="col-lg-10 col-12 mt-5">
           <h2><strong>Onde você está na escala da produção científica?</strong></h2>
+        </div>
+
+        <!-- filtro -->
+        <div class="col-lg-10 col-12">
+          <div class="mt-lg-5">
+            <div class=" d-flex">
+              <h3 class="white mb-lg-3 mr-lg-5">Qual a área de pesquisa?</h3>
+              <div class="">
+                <div class="select">
+                  <select class="select-area" name="area">
+                    <option value="0">Selecione uma área</option>
+                    <option value="0.077">Ciências biológicas</option>
+                    <option value="0.077">Ciências da sáude</option>
+                    <option value="0.023">Ciências exatas e da terra</option>
+                    <option value="0.169">Ciências sociais aplicadas</option>
+                    <option value="0.116">Engenharias</option>
+                    <option value="0.116">Ciências Agrárias</option>
+                    <option value="0.168">Ciências Humanas</option>
+                    <option value="0.271">Linguística Letras e Artes</option>
+                  </select>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="">
+              <!-- <label class="c-filter">Ciências biológicas
+                <input id="biologicas" name="area" type="radio" value="0.077">
+                <span class="checkmark checkmark-green"></span>
+              </label>
+              <label class="c-filter">Ciências da sáude
+                <input id="saude" name="area" type="radio" value="0.077">
+                <span class="checkmark checkmark-blue"></span>
+              </label>
+              <label class="c-filter">Ciências exatas e da terra
+                <input id="exatas" name="area" type="radio" value="0.023">
+                <span class="checkmark checkmark-yellow"></span>
+              </label>
+              <label class="c-filter">Ciências sociais aplicadas
+                <input id="sociais" name="area" type="radio" value="0.169">
+                <span class="checkmark checkmark-red"></span>
+              </label>
+              <label class="c-filter">Engenharias
+                <input id="engenharias" name="area" type="radio" value="0.116">
+                <span class="checkmark checkmark-purple"></span>
+              </label>
+              <label class="c-filter">Ciências Agrárias
+                <input id="agrarias" name="area" type="radio" value="0.116">
+                <span class="checkmark checkmark-purple"></span>
+              </label>
+              <label class="c-filter">Ciências Humanas
+                <input id="humanas" name="area" type="radio" value="0.168">
+                <span class="checkmark checkmark-purple"></span>
+              </label>
+              <label class="c-filter">Linguística Letras e Artes
+                <input id="artes" name="area" type="radio" value="0.271">
+                <span class="checkmark checkmark-purple"></span>
+              </label> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-10 col-12">
           <!-- <label for="final">Final</label>
           <input type='text' class='custo' id='final' name='final' value='0'> -->
           <div class="">
@@ -39,36 +102,18 @@
           <div class="btn calcular" id="calcular">Calcular</div>
         </div>
 
-        <!-- <div class="col-2">
-          <div class="mt-lg-5 mt-3">
-            <h5 class="newgrey text-uppercase mb-lg-0">Grande área de pesquisa</h5>
-            <h5 class="newgrey mb-lg-3">clique para filtrar por grande área</h5>
-            <div class="">
-              <label class="c-filter">Ciências biológicas
-                <input type="checkbox" v-model="filter.biologicas">
-                <span class="checkmark checkmark-green"></span>
-              </label>
-              <label class="c-filter">Ciências sociais aplicadas
-                <input type="checkbox" v-model="filter.sociais">
-                <span class="checkmark checkmark-red"></span>
-              </label>
-              <label class="c-filter">Ciências exatas e da terra
-                <input type="checkbox" v-model="filter.exatas">
-                <span class="checkmark checkmark-yellow"></span>
-              </label>
-              <label class="c-filter">Engenharias
-                <input type="checkbox" v-model="filter.engenharias">
-                <span class="checkmark checkmark-purple"></span>
-              </label>
-              <label class="c-filter">Ciências da sáude
-                <input type="checkbox" v-model="filter.saude">
-                <span class="checkmark checkmark-blue"></span>
-              </label>
-            </div>
-          </div>
-        </div> -->
+
 
         <div class="col-lg-10 col-12 mt-5">
+
+          <!-- legenda -->
+          <div class="border-legenda d-flex justify-content-between">
+            <div class="text-legenda">Pesquisadora </br> iniciante</div>
+            <div class="text-legenda text-right">Pesquisadora </br> senior</div>
+
+          </div>
+
+
           <div class="slidecontainer">
             <!-- <input type="range" min="1" max="100" value="50" class="slider" id="myRange"> -->
             <div class="slider">
@@ -79,8 +124,6 @@
             </div>
           </div>
         </div>
-
-
 
 
       </div>
@@ -99,6 +142,12 @@
             var terceiro = $("#terceiro").val();
             var quarto = $("#quarto").val();
             var quinto = $("#quinto").val();
+            var argoritmo = [];
+
+
+            $.each($(".select-area option:selected"), function(){
+                argoritmo.push($(this).val());
+            });
 
 
             $('.ponto').each(function(){
@@ -106,14 +155,15 @@
               if (!isNaN(valor)) total += valor;
             });
 
-            total = ((( primeiro * '5') + ( segundo * '4') + ( terceiro * '2') + ( quarto * '2') + ( quinto * '1')) * '0.023' ) ;
+
+            total = ((( primeiro * '5') + ( segundo * '4') + ( terceiro * '2') + ( quarto * '2') + ( quinto * '1')) * argoritmo ) ;
             // final = total  - '3' ;
 
 
             $("#final").attr('value', total);
 
             if( total > '95' ) {
-              $("#calc").css('width', '95.5%');
+              $("#calc").css('width', '95%');
             } else if ( total <= '3' ) {
               final = total;
               $("#calc").css('width', final+'%');

@@ -9768,24 +9768,6 @@ h5 {
   border: 1px solid transparent;
 }
 
-/* legenda */
-.legenda {
-  position: absolute;
-  bottom: 30px;
-  left: -75px;
-}
-
-.svg {
-  zoom: 3;
-  animation: zoom 300ms;
-  animation-direction: alternate;
-}
-
-@keyframes zoom {
-  100% {
-    transform: scale(1.2);
-  }
-}
 .slidecontainer {
   width: 100%;
 }
@@ -9813,9 +9795,15 @@ h5 {
   position: relative;
 }
 
+.calculator {
+  /* Arrow */
+}
 .calculator h2 {
   font-size: 24px;
-  margin-bottom: 40px;
+}
+.calculator h3 {
+  font-size: 20px;
+  font-weight: 400;
 }
 .calculator label {
   font-size: 20px;
@@ -9830,17 +9818,99 @@ h5 {
   text-align: right;
   width: 110px;
   margin-bottom: 40px;
+  font-size: 16px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+}
+.calculator select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background: transparent;
+  background-image: none;
+}
+.calculator select::-ms-expand {
+  display: none;
+}
+.calculator .select {
+  position: relative;
+  display: flex;
+  background: transparent;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  width: 300px;
+  margin-bottom: 40px;
+}
+.calculator select {
+  flex: 1;
+  padding: 3px 20px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #262624;
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+.calculator select:focus {
+  outline: none;
+}
+.calculator select option:hover {
+  cursor: pointer;
+}
+.calculator .select::after {
+  content: "▼";
+  font-size: 14px;
+  position: absolute;
+  top: 3px;
+  right: 0;
+  padding: 0 1em;
+  background: transparent;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-transition: 0.25s all ease;
+  -o-transition: 0.25s all ease;
+  transition: 0.25s all ease;
+}
+.calculator .select:hover::after {
+  opacity: 0.5;
 }
 .calculator .btn {
+  background-color: #fff;
   border-radius: 10px;
   padding: 3px 25px;
-  border: 2px solid #F5EB35;
+  font-size: 16px;
+  font-weight: 600;
+}
+.calculator .btn:hover {
+  background-color: rgba(255, 255, 255, 0.7);
 }
 .calculator .calcular {
-  color: #F5EB35;
+  color: #262624;
 }
 .calculator .center {
   text-align: center;
+}
+.calculator .border-legenda {
+  border-left: 1px solid #696969;
+  border-right: 1px solid #696969;
+  height: 55px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.calculator .text-legenda {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .position-calc {
