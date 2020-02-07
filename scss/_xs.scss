@@ -58,7 +58,6 @@ h5 {
   }
 }
 
-/* Hide the browser's default checkbox */
 .c-filter {
   position: relative;
   display: block;
@@ -81,7 +80,13 @@ h5 {
   width: 0;
 }
 
-/* Create a custom checkbox */
+.text-filter {
+  font-size: 16px;
+  color: $newgrey;
+  margin-top: 20px;
+}
+
+/* checkbox */
 .checkmark {
   border-radius: 50px;
   position: absolute;
@@ -177,11 +182,12 @@ h5 {
     font-size: 24px;
   }
   h3 {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
   }
   label {
-    font-size: 20px;
+    font-size: 16px;
+    display: block;
   }
   input {
     background-color: transparent;
@@ -189,10 +195,10 @@ h5 {
     border: 1px solid #fff;
     padding: 3px 20px;
     color: #fff;
-    margin-left: 50px;
+    margin-left: 0px;
     text-align: right;
     width: 110px;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
     font-size: 16px;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -224,8 +230,8 @@ h5 {
     overflow: hidden;
     border-radius: 10px;
     border: 1px solid #fff;
-    width: 300px;
-    margin-bottom: 40px;
+    width: auto;
+    margin-bottom: 25px;
   }
   select {
     flex: 1;
@@ -280,19 +286,38 @@ h5 {
     text-align: center;
   }
   .border-legenda {
-    border-left: 1px solid $newgrey;
-    border-right: 1px solid $newgrey;
-    height: 55px;
+    // border-left: 1px solid $newgrey;
+    // border-right: 1px solid $newgrey;
+    // height: 55px;
     width: 100%;
     margin-bottom: 5px;
+    padding-left: 5px;
   }
+
   .text-legenda {
-    margin-left: 5px;
-    margin-right: 5px;
+    padding-left: 5px;
     font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
+    border-left: 1px solid $newgrey;
+    height: 55px;
+    &.right-position-desk {
+      position: absolute;
+      right: -149px;
+      border-left: 1px solid $newgrey;
+    }
+    &.right-position {
+      border-left: 0px;
+      border-right: 1px solid $newgrey;
+      text-align: right;
+      padding-right: 5px;
+    }
+    &.middle-position {
+      position: absolute;
+      left: 50%;
+    }
   }
+
 }
 
 .position-calc {

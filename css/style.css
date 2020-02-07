@@ -9711,7 +9711,6 @@ h5 {
   fill: rgba(255, 255, 255, 0.5);
 }
 
-/* Hide the browser's default checkbox */
 .c-filter {
   position: relative;
   display: block;
@@ -9734,7 +9733,13 @@ h5 {
   width: 0;
 }
 
-/* Create a custom checkbox */
+.text-filter {
+  font-size: 16px;
+  color: #696969;
+  margin-top: 20px;
+}
+
+/* checkbox */
 .checkmark {
   border-radius: 50px;
   position: absolute;
@@ -9802,11 +9807,12 @@ h5 {
   font-size: 24px;
 }
 .calculator h3 {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
 }
 .calculator label {
-  font-size: 20px;
+  font-size: 16px;
+  display: block;
 }
 .calculator input {
   background-color: transparent;
@@ -9814,10 +9820,10 @@ h5 {
   border: 1px solid #fff;
   padding: 3px 20px;
   color: #fff;
-  margin-left: 50px;
+  margin-left: 0px;
   text-align: right;
   width: 110px;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
   font-size: 16px;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -9846,8 +9852,8 @@ h5 {
   overflow: hidden;
   border-radius: 10px;
   border: 1px solid #fff;
-  width: 300px;
-  margin-bottom: 40px;
+  width: auto;
+  margin-bottom: 25px;
 }
 .calculator select {
   flex: 1;
@@ -9899,18 +9905,32 @@ h5 {
   text-align: center;
 }
 .calculator .border-legenda {
-  border-left: 1px solid #696969;
-  border-right: 1px solid #696969;
-  height: 55px;
   width: 100%;
   margin-bottom: 5px;
+  padding-left: 5px;
 }
 .calculator .text-legenda {
-  margin-left: 5px;
-  margin-right: 5px;
+  padding-left: 5px;
   font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
+  border-left: 1px solid #696969;
+  height: 55px;
+}
+.calculator .text-legenda.right-position-desk {
+  position: absolute;
+  right: -149px;
+  border-left: 1px solid #696969;
+}
+.calculator .text-legenda.right-position {
+  border-left: 0px;
+  border-right: 1px solid #696969;
+  text-align: right;
+  padding-right: 5px;
+}
+.calculator .text-legenda.middle-position {
+  position: absolute;
+  left: 50%;
 }
 
 .position-calc {
@@ -9938,137 +9958,20 @@ h5 {
   line-height: normal;
 }
 
-@media (min-width: 576px) {
-  /* -----------------------------------*/
-  /* ---------->>> GLOBAL <<<-----------*/
-  /* -----------------------------------*/
-  /* GLOBAL > FONTS
-  //////////////////////////////////////*/
-  /* GLOBAL > TITLES
-  //////////////////////////////////////*/
-  /* GLOBAL > PARAGRAPH
-  //////////////////////////////////////*/
-  /* GLOBAL > COLORS
-  //////////////////////////////////////*/
-  /* GLOBAL > BUTTONS
-  //////////////////////////////////////*/
-  /* -----------------------------------*/
-  /* ---------->>> BLOCKS <<<-----------*/
-  /* -----------------------------------*/
-  /* -----------------------------------*/
-  /* -------->>> COMPONENTS <<<---------*/
-  /* -----------------------------------*/
-  /* COMPONENTS > NAVBAR
-  //////////////////////////////////////*/
-  /* COMPONENTS > FOOTER
-  //////////////////////////////////////*/
-  /* COMPONENTS > CARDS
-  //////////////////////////////////////*/
-  /* COMPONENTS > FORMS
-  //////////////////////////////////////*/
-  /* COMPONENTS > CAROUSEL
-  //////////////////////////////////////*/
-  /* COMPONENTS > BOX
-  //////////////////////////////////////*/
-}
-@media (min-width: 768px) {
-  /* -----------------------------------*/
-  /* ---------->>> GLOBAL <<<-----------*/
-  /* -----------------------------------*/
-  /* GLOBAL > FONTS
-  //////////////////////////////////////*/
-  /* GLOBAL > TITLES
-  //////////////////////////////////////*/
-  /* GLOBAL > PARAGRAPH
-  //////////////////////////////////////*/
-  /* GLOBAL > COLORS
-  //////////////////////////////////////*/
-  /* GLOBAL > BUTTONS
-  //////////////////////////////////////*/
-  /* -----------------------------------*/
-  /* ---------->>> BLOCKS <<<-----------*/
-  /* -----------------------------------*/
-  /* -----------------------------------*/
-  /* -------->>> COMPONENTS <<<---------*/
-  /* -----------------------------------*/
-  /* COMPONENTS > NAVBAR
-  //////////////////////////////////////*/
-  /* COMPONENTS > FOOTER
-  //////////////////////////////////////*/
-  /* COMPONENTS > CARDS
-  //////////////////////////////////////*/
-  /* COMPONENTS > FORMS
-  //////////////////////////////////////*/
-  /* COMPONENTS > CAROUSEL
-  //////////////////////////////////////*/
-  /* COMPONENTS > BOX
-  //////////////////////////////////////*/
-}
 @media (min-width: 992px) {
-  /* -----------------------------------*/
-  /* ---------->>> GLOBAL <<<-----------*/
-  /* -----------------------------------*/
-  /* GLOBAL > FONTS
-  //////////////////////////////////////*/
-  /* GLOBAL > TITLES
-  //////////////////////////////////////*/
-  /* GLOBAL > PARAGRAPH
-  //////////////////////////////////////*/
-  /* GLOBAL > COLORS
-  //////////////////////////////////////*/
-  /* GLOBAL > BUTTONS
-  //////////////////////////////////////*/
-  /* -----------------------------------*/
-  /* ---------->>> BLOCKS <<<-----------*/
-  /* -----------------------------------*/
-  /* -----------------------------------*/
-  /* -------->>> COMPONENTS <<<---------*/
-  /* -----------------------------------*/
-  /* COMPONENTS > NAVBAR
-  //////////////////////////////////////*/
-  /* COMPONENTS > FOOTER
-  //////////////////////////////////////*/
-  /* COMPONENTS > CARDS
-  //////////////////////////////////////*/
-  /* COMPONENTS > FORMS
-  //////////////////////////////////////*/
-  /* COMPONENTS > CAROUSEL
-  //////////////////////////////////////*/
-  /* COMPONENTS > BOX
-  //////////////////////////////////////*/
-}
-@media (min-width: 1200px) {
-  /* -----------------------------------*/
-  /* ---------->>> GLOBAL <<<-----------*/
-  /* -----------------------------------*/
-  /* GLOBAL > FONTS
-  //////////////////////////////////////*/
-  /* GLOBAL > TITLES
-  //////////////////////////////////////*/
-  /* GLOBAL > PARAGRAPH
-  //////////////////////////////////////*/
-  /* GLOBAL > COLORS
-  //////////////////////////////////////*/
-  /* GLOBAL > BUTTONS
-  //////////////////////////////////////*/
-  /* -----------------------------------*/
-  /* ---------->>> BLOCKS <<<-----------*/
-  /* -----------------------------------*/
-  /* -----------------------------------*/
-  /* -------->>> COMPONENTS <<<---------*/
-  /* -----------------------------------*/
-  /* COMPONENTS > NAVBAR
-  //////////////////////////////////////*/
-  /* COMPONENTS > FOOTER
-  //////////////////////////////////////*/
-  /* COMPONENTS > CARDS
-  //////////////////////////////////////*/
-  /* COMPONENTS > FORMS
-  //////////////////////////////////////*/
-  /* COMPONENTS > CAROUSEL
-  //////////////////////////////////////*/
-  /* COMPONENTS > BOX
-  //////////////////////////////////////*/
+  .calculator label {
+    font-size: 20px;
+    display: inline-block;
+  }
+  .calculator input {
+    margin-left: 50px;
+  }
+  .calculator h3 {
+    font-size: 20px;
+  }
+  .calculator .select {
+    width: 300px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

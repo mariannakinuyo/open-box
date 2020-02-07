@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div class="container mt-5 calculator">
+    <div class="container calculator">
       <div class="row">
 
         <div class="col-lg-10 col-12 mt-5">
@@ -19,7 +19,7 @@
         <!-- filtro -->
         <div class="col-lg-10 col-12">
           <div class="mt-lg-5">
-            <div class=" d-flex">
+            <div class=" d-lg-flex">
               <h3 class="white mb-lg-3 mr-lg-5">Qual a área de pesquisa?</h3>
               <div class="">
                 <div class="select">
@@ -36,49 +36,11 @@
                   </select>
                 </div>
               </div>
-
-            </div>
-
-            <div class="">
-              <!-- <label class="c-filter">Ciências biológicas
-                <input id="biologicas" name="area" type="radio" value="0.077">
-                <span class="checkmark checkmark-green"></span>
-              </label>
-              <label class="c-filter">Ciências da sáude
-                <input id="saude" name="area" type="radio" value="0.077">
-                <span class="checkmark checkmark-blue"></span>
-              </label>
-              <label class="c-filter">Ciências exatas e da terra
-                <input id="exatas" name="area" type="radio" value="0.023">
-                <span class="checkmark checkmark-yellow"></span>
-              </label>
-              <label class="c-filter">Ciências sociais aplicadas
-                <input id="sociais" name="area" type="radio" value="0.169">
-                <span class="checkmark checkmark-red"></span>
-              </label>
-              <label class="c-filter">Engenharias
-                <input id="engenharias" name="area" type="radio" value="0.116">
-                <span class="checkmark checkmark-purple"></span>
-              </label>
-              <label class="c-filter">Ciências Agrárias
-                <input id="agrarias" name="area" type="radio" value="0.116">
-                <span class="checkmark checkmark-purple"></span>
-              </label>
-              <label class="c-filter">Ciências Humanas
-                <input id="humanas" name="area" type="radio" value="0.168">
-                <span class="checkmark checkmark-purple"></span>
-              </label>
-              <label class="c-filter">Linguística Letras e Artes
-                <input id="artes" name="area" type="radio" value="0.271">
-                <span class="checkmark checkmark-purple"></span>
-              </label> -->
             </div>
           </div>
         </div>
 
         <div class="col-lg-10 col-12">
-          <!-- <label for="final">Final</label>
-          <input type='text' class='custo' id='final' name='final' value='0'> -->
           <div class="">
             <label for="primeiro">Em quantas publicações científicas é a primeira autora?</label>
             <input type='text' class='margem ponto' id='primeiro' name='primeiro' value='0'>
@@ -102,20 +64,18 @@
           <div class="btn calcular" id="calcular">Calcular</div>
         </div>
 
-
-
-        <div class="col-lg-10 col-12 mt-5">
-
-          <!-- legenda -->
+        <!-- legenda -->
+        <div class="col-lg-10 col-12 mt-5 mb-1">
           <div class="border-legenda d-flex justify-content-between">
-            <div class="text-legenda">Pesquisadora </br> iniciante</div>
-            <div class="text-legenda text-right">Pesquisadora </br> senior</div>
-
+            <div class="text-legenda">Você já contribuiu</br>com a ciência!</div>
+            <div class="text-legenda middle-position d-none d-md-block">Quanta produção realizada!</br>Isso é muito importante.</div>
+            <div class="text-legenda right-position-desk d-none d-md-block">Pelo jeito você é candidata</br>a deixar um legado na sua</br>área de atuação!</div>
+            <div class="text-legenda right-position d-md-none">Pelo jeito você é candidata</br>a deixar um legado na sua</br>área de atuação!</div>
           </div>
+        </div>
 
-
+        <div class="col-lg-10 col-12">
           <div class="slidecontainer">
-            <!-- <input type="range" min="1" max="100" value="50" class="slider" id="myRange"> -->
             <div class="slider">
               <div id="calc" class="calc">
                 <div id="position" class="position-calc">
@@ -124,7 +84,6 @@
             </div>
           </div>
         </div>
-
 
       </div>
     </div>
@@ -144,17 +103,14 @@
             var quinto = $("#quinto").val();
             var argoritmo = [];
 
-
             $.each($(".select-area option:selected"), function(){
                 argoritmo.push($(this).val());
             });
-
 
             $('.ponto').each(function(){
               var valor = Number($(this).val());
               if (!isNaN(valor)) total += valor;
             });
-
 
             total = ((( primeiro * '5') + ( segundo * '4') + ( terceiro * '2') + ( quarto * '2') + ( quinto * '1')) * argoritmo ) ;
             // final = total  - '3' ;
@@ -182,8 +138,6 @@
 
           });
         });
-
-
 
     </script>
 
