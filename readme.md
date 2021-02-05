@@ -1,4 +1,4 @@
-# MODELO
+# Para iniciar o projeto
 
 Para começar um projeto sem o modelo:
 
